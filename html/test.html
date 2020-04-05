@@ -1,0 +1,241 @@
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Codeply">
+    <title>Codeply simple HTML/CSS/JS preview</title>
+    <base target="_self"> 
+  
+    <link rel="stylesheet" href="css/normalize.min.css">  
+    
+  
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/3.0.0/css/ionicons.min.css"> -->
+  
+    <style>.show > .dropdown-menu {
+    max-height: 900px;
+    visibility: visible;
+  }
+    
+  .dropdown-menu {
+    display: block;
+    max-height: 0;
+    visibility: hidden;
+    transition: all 0.35s ease-in-out;
+    overflow: hidden;
+  }
+  </style>
+   <link rel="stylesheet" href="css/custom.css">
+  </head>
+  <body style="background-image: url('./images/white.png');height:7225px">
+    <nav class="navbar navbar-expand-lg navbar-light align-items-center">
+      <div class="container">
+          <a class="navbar-brand" href="#"><img src="./images/coinmarketcap_1.svg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation" aria-expanded="true">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse show" id="navbarSupportedContent" style="">
+              <ul class="navbar-nav">
+                  <li> <a href="">Ranking</a></li>
+                  <li><a href="">Tools</a></li>
+                  <li><a href="">Resources</a></li>
+                  <li><a href="">Blog</a></li>
+                  <li class="nav-item dropdown position-static">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Mega Menu </a>
+                      <ul class="dropdown-menu w-100 shadow p-0" id="navbarDropdownMega">
+                          <li class="dropdown-item">
+                              <div class="row py-3">
+                                  <div class="col-md-6 col-lg-3 pb-2">
+                                      <div class="card h-100">
+                                          <a href="#">
+                                              <img src="http://placehold.it/450x200" class="img-fluid">
+                                          </a>
+                                          <div class="card-body"> Put some content like this... </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-6 col-lg-3 pb-2">
+                                      <div class="card rounded-lg h-100">
+                                          <div class="card-body py-2 d-flex flex-column">
+                                              <h6 class="text-uppercase small">New Customer</h6>
+                                              <h4 class="mb-0 text-info text-truncate">Austin Farnum</h4>
+                                              <p class="mt-1 text-truncate">Fort Knox, TX 28192</p>
+                                              <h3 class="mb-0 mt-auto">$197.55</h3>
+                                              <div>Total items: 3</div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-6 col-lg-3 pb-2 text-center">
+                                      <form>
+                                          <div class="position-relative form-group">
+                                              <input name="name" id="textname1" placeholder="Enter Name Here" type="text" class="form-control">
+                                          </div>
+                                          <div class="position-relative form-group">
+                                              <input name="email" id="exampleEmail2" placeholder="Enter Email Here" type="email" class="form-control">
+                                          </div>
+                                          <div class="position-relative form-group">
+                                              <textarea name="text" id="exampleText2" placeholder="Message" class="form-control"></textarea>
+                                          </div>
+                                          <button class="btn btn-primary float-right">Submit</button>
+                                      </form>
+                                  </div>
+                                  <div class="col-md-6 col-lg-3 pb-2">
+                                      <div class="card rounded-lg h-100">
+                                          <div class="card-body">
+                                              <ul class="list-unstyled">
+                                                  <li>Other Content...</li>
+                                                  <li><a href="#" class="text-info">Component alignment</a></li>
+                                                  <li><a href="#" class="text-info">Fixed to top</a></li>
+                                                  <li><a href="#" class="text-info">Fixed to bottom</a></li>
+                                                  <li><a href="#" class="text-info">Static top</a></li>
+                                                  <li><a href="#" class="text-info">Inverted navbar</a></li>
+                                              </ul>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </li>
+                      </ul>
+                  </li>
+              </ul>
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLbl" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Fancy Menu </a>
+                      <div class="dropdown-menu dropdown-menu-right w-auto shadow p-0" id="navbarDropdown" aria-labelledby="navbarDropdownLbl">
+                          <a class="dropdown-item d-flex flex-nowrap align-items-center px-0 py-3" target="new" rel="nofollow" href="https://themestr.app/customize">
+                              <div class="flex-shrink-1 text-center px-3"><i class="ion-ios-construct-outline h1"></i></div>
+                              <div class="pl-0 pr-4">
+                                  <h5 class="mb-0">Customizer</h5> Build a custom Bootstrap version
+                              </div>
+                          </a>
+                          <a class="dropdown-item d-flex flex-nowrap align-items-center px-0 py-3" target="new" rel="nofollow" href="http://bootstrap.themes.guide/how-to.html">
+                              <div class="flex-shrink-1 text-center  px-3"><i class="ion-ios-bookmarks-outline h1"></i></div>
+                              <div class="pl-0 pr-4">
+                                  <h5 class="mb-0">How-to...</h5> Learn how to use Bootstrap 4
+                              </div>
+                          </a>
+                          <a class="dropdown-item d-flex flex-nowrap align-items-center px-0 py-3" target="new" rel="nofollow" href="http://bootstrap4.guide/cn/starter-templates">
+                              <div class="flex-shrink-1 text-center  px-3"><i class="ion-ios-jet-outline h1"></i></div>
+                              <div class="pl-0 pr-4">
+                                  <h5 class="mb-0">Starter Templates</h5> Kickstart your Bootstrap 4 projects
+                              </div>
+                          </a>
+                          <a class="dropdown-item d-flex flex-nowrap align-items-center px-0 py-3" target="new" rel="nofollow" href="http://bootstrap4.guide">
+                              <div class="flex-shrink-1 text-center  px-3"><i class="ion-ios-cube-outline h1"></i></div>
+                              <div class="pl-0 pr-4">
+                                  <h5 class="mb-0">Bootstrap4.guide</h5> Ultimate Bootstrap 4 toolbox
+                              </div>
+                          </a>
+                          <a class="dropdown-item d-flex flex-nowrap align-items-center px-0 py-3" target="new" rel="nofollow" href="https://themesguide.github.io/top-hat/dist/">
+                              <div class="flex-shrink-1 text-center  px-3"><i class="ion-ios-cloud-download-outline h1"></i></div>
+                              <div class="pl-0 pr-4">
+                                  <h5 class="mb-0">Tophat themes</h5> Download free Bootstrap 4 themes
+                              </div>
+                          </a>
+                          <a class="dropdown-item d-flex flex-nowrap align-items-center px-0 py-3" target="new" rel="nofollow" href="https://themestr.app/">
+                              <div class="flex-shrink-1 text-center px-3"><i class="ion-ios-color-palette-outline h1"></i></div>
+                              <div class="pl-0 pr-4">
+                                  <h5 class="mb-0">Themestr.app</h5> Create custom Bootstrap themes
+                              </div>
+                          </a>
+                      </div>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+  
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+  
+    <script src="js/bootstrap.js"></script>
+  
+    <script>
+    
+    </script>
+    <script>
+      // prevent navigation
+      document.addEventListener("DOMContentLoaded", function() {
+        var links = document.getElementsByTagName("A");
+        for(var i=0; i < links.length; i++) {
+          links[i].addEventListener("click", function(e) {
+            var href = this.getAttribute("href")
+  
+            if (!href) {
+              return
+            }
+  
+            if (href==='#') {
+              // hash only ('#')
+              console.debug('Internal nav allowed by Codeply');
+            }
+            else if (this.hash) {
+              // hash with tag ('#foo')
+              var element = null
+              try {
+                element = document.querySelector(this.hash)
+              }
+              catch(e) {
+                console.debug('Codeply internal nav querySelector failed')
+              }
+              if (element) {
+                // scroll to anchor
+                e.preventDefault();
+                const top = element.getBoundingClientRect().top + window.pageYOffset
+                window.scrollTo({top, behavior: 'smooth'})
+                console.debug('Internal nav anchor controlled by Codeply');
+              }
+              else {
+                // allow javascript routing
+                console.debug('Internal nav route allowed by Codeply');
+              }
+            }
+            else if (href.indexOf("/p/")===0 || href.indexOf("/v/")===0) {
+              // special multi-page routing
+              console.debug('Special internal page route: ' + href)
+  
+              var l = href.replace('/p/','/v/')
+  
+              // reroute
+              e.preventDefault()
+              var newLoc = l + '?from=internal'
+              console.debug('Internal view will reroute to ' + newLoc) 
+              location.href = newLoc
+            }
+            else if (href.indexOf("./")===0) {
+              // special multi-page routing
+              console.debug('Special internal ./ route: ' + href)
+  
+              var u = parent.document.URL.split("/")
+              var pn = href.split("/")[1]
+              var plyId = u[u.length-1]
+  
+              if (plyId.indexOf('?from')>-1) {
+                // already rerouted this
+                console.debug('already rerouted')
+                plyId = u[u.length-2]
+              }
+  
+              var l = plyId + '/' + pn
+              
+              console.debug(u)
+              console.debug(pn)
+              console.debug('l',l)
+  
+              // reroute
+              e.preventDefault()
+              var newLoc = '/v/' + l + '?from=internal'
+              console.debug('Internal page will reroute to ' + newLoc) 
+              location.href = newLoc
+            }
+            else {
+              // no external links
+              e.preventDefault();
+              console.debug('External nav prevented by Codeply');
+            }
+            return false;
+          })
+        }
+      }, false);
+    </script>
+  
+  
+  </body></html>

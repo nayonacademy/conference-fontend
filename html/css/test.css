@@ -1,0 +1,4045 @@
+
+
+/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+
+html {
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%
+}
+
+body {
+	margin: 0
+}
+
+h1 {
+	font-size: 2em;
+	margin: .67em 0
+}
+
+hr {
+	box-sizing: content-box;
+	height: 0;
+	overflow: visible
+}
+
+pre {
+	font-family: monospace, monospace;
+	font-size: 1em
+}
+
+a {
+	background-color: transparent
+}
+
+abbr[title] {
+	border-bottom: none;
+	text-decoration: underline;
+	-webkit-text-decoration: underline dotted;
+	text-decoration: underline dotted
+}
+
+b,
+strong {
+	font-weight: bolder
+}
+
+code,
+kbd,
+samp {
+	font-family: monospace, monospace;
+	font-size: 1em
+}
+
+small {
+	font-size: 80%
+}
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline
+}
+
+sub {
+	bottom: -.25em
+}
+
+sup {
+	top: -.5em
+}
+
+img {
+	border-style: none
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: inherit;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0
+}
+
+button,
+input {
+	overflow: visible
+}
+
+button,
+select {
+	text-transform: none
+}
+
+[type=button],
+[type=reset],
+[type=submit],
+button {
+	-webkit-appearance: button
+}
+
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner,
+button::-moz-focus-inner {
+	border-style: none;
+	padding: 0
+}
+
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring,
+button:-moz-focusring {
+	outline: 1px dotted ButtonText
+}
+
+fieldset {
+	padding: .35em .75em .625em
+}
+
+legend {
+	box-sizing: border-box;
+	color: inherit;
+	display: table;
+	max-width: 100%;
+	padding: 0;
+	white-space: normal
+}
+
+progress {
+	vertical-align: baseline
+}
+
+textarea {
+	overflow: auto
+}
+
+[type=checkbox],
+[type=radio] {
+	box-sizing: border-box;
+	padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+	height: auto
+}
+
+[type=search] {
+	-webkit-appearance: textfield;
+	outline-offset: -2px
+}
+
+[type=search]::-webkit-search-decoration {
+	-webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+	-webkit-appearance: button;
+	font: inherit
+}
+
+details {
+	display: block
+}
+
+summary {
+	display: list-item
+}
+
+template {
+	display: none
+}
+
+[hidden] {
+	display: none
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-style: normal;
+	font-weight: 300;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-light.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-light.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-style: normal;
+	font-weight: 400;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-regular.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-regular.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-weight: 500;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-medium.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-medium.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-weight: 700;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-bold.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-bold.woff) format("woff")
+}
+
+a {
+	color: #1a66ff;
+	text-decoration: none
+}
+
+a:active,
+a:hover {
+	text-decoration: underline
+}
+
+a.link--dark {
+	color: #32323d
+}
+
+a.link--dark:hover {
+	color: #1b1b21;
+	text-decoration: underline
+}
+
+a.link--secondary {
+	color: #73738f
+}
+
+a.link--secondary:active,
+a.link--secondary:focus,
+a.link--secondary:hover {
+	color: gray-5;
+	text-decoration: underline
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-style: normal;
+	font-weight: 300;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-light.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-light.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-style: normal;
+	font-weight: 400;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-regular.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-regular.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-weight: 500;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-medium.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-medium.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-weight: 700;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-bold.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-bold.woff) format("woff")
+}
+
+path[id*='_bounds'] {
+	fill: none;
+	stroke: none
+}
+
+svg.icon {
+	height: 16px;
+	width: 16px;
+	vertical-align: sub
+}
+
+svg.icon use {
+	fill: currentColor
+}
+
+body,
+html {
+	font-family: TrustpilotDefaultFont, Arial, sans-serif;
+	font-size: 16px;
+	letter-spacing: .5px;
+	color: #32323d;
+	font-weight: 400
+}
+
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	font-size: 14px;
+	font-size: .875rem;
+	line-height: 20px;
+	line-height: 1.25rem
+}
+
+h1,
+h2,
+h3 {
+	color: #32323d
+}
+
+*,
+:after,
+:before {
+	box-sizing: border-box
+}
+
+input[type=search] {
+	-webkit-appearance: none
+}
+
+main[role=main] {
+	display: block
+}
+
+h1.display {
+	font-size: 40px;
+	font-size: 2.5rem;
+	line-height: 52px;
+	line-height: 3.25rem
+}
+
+h1 {
+	font-size: 20px;
+	font-size: 1.25rem;
+	line-height: 28px;
+	line-height: 1.75rem
+}
+
+@media only screen and (min-width:1024px) {
+	h1 {
+		font-size: 32px;
+		font-size: 2rem;
+		line-height: 40px;
+		line-height: 2.5rem;
+		font-weight: 700
+	}
+}
+
+h2 {
+	font-size: 20px;
+	font-size: 1.25rem;
+	line-height: 28px;
+	line-height: 1.75rem;
+	margin: 0
+}
+
+@media only screen and (min-width:1024px) {
+	h2 {
+		font-size: 24px;
+		font-size: 1.5rem;
+		line-height: 32px;
+		line-height: 2rem;
+		font-weight: 500
+	}
+}
+
+h3 {
+	font-size: 18px;
+	font-size: 1.125rem;
+	line-height: 24px;
+	line-height: 1.5rem;
+	font-weight: 500;
+	margin: 0
+}
+
+.noscroll {
+	overflow: hidden
+}
+
+.metadata {
+	font-size: 14px;
+	font-size: .875rem;
+	line-height: 20px;
+	line-height: 1.25rem;
+	color: #73738f
+}
+
+.modal-container {
+	z-index: 999
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-style: normal;
+	font-weight: 300;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-light.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-light.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-style: normal;
+	font-weight: 400;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-regular.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-regular.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-weight: 500;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-medium.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-medium.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-weight: 700;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-bold.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-bold.woff) format("woff")
+}
+
+.bot-bait {
+	display: none
+}
+
+[v-cloak] {
+	display: none
+}
+
+.covid19 {
+	display: flex;
+	flex-direction: column;
+	padding: 16px 24px 40px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	z-index: 9999;
+	background: #f2f2f5;
+	box-shadow: 0 0 11px 2px rgba(0, 0, 0, .14)
+}
+
+@media only screen and (min-width:640px) {
+	.covid19 {
+		padding: 22px 66px 32px
+	}
+}
+
+.covid19__close {
+	align-self: flex-end;
+	color: #000032;
+	cursor: pointer;
+	margin-bottom: 4px
+}
+
+.covid19__close svg {
+	width: 20px;
+	height: 20px
+}
+
+.covid19__heading {
+	color: #1b1b21
+}
+
+.covid19__body {
+	color: #1b1b21;
+	margin: 10px 0 0
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-style: normal;
+	font-weight: 300;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-light.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-light.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-style: normal;
+	font-weight: 400;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-regular.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-regular.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-weight: 500;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-medium.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-medium.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-weight: 700;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-bold.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-bold.woff) format("woff")
+}
+
+.tooltip {
+	padding: 8px;
+	z-index: 100
+}
+
+@media only screen and (min-width:640px) {
+	.tooltip {
+		width: initial
+	}
+}
+
+.tooltip .tooltip-inner {
+	z-index: inherit;
+	background: #fff;
+	width: 96vw;
+	border: 1px solid #e8e8eb;
+	border-radius: 2px;
+	font-size: 14px;
+	font-size: .875rem;
+	line-height: 20px;
+	line-height: 1.25rem;
+	padding: 24px;
+	box-shadow: 0 12px 20px 0 rgba(0, 0, 50, .12);
+	position: relative;
+	width: 360px
+}
+
+.tooltip .tooltip-arrow {
+	z-index: 1;
+	position: absolute;
+	width: 1rem;
+	height: 1rem;
+	background-color: transparent
+}
+
+.tooltip .tooltip-arrow:after,
+.tooltip .tooltip-arrow:before {
+	content: '';
+	width: 0;
+	height: 0;
+	border-style: solid!important;
+	position: absolute;
+	border-color: #fff;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-top-color: transparent;
+	border-bottom-color: transparent
+}
+
+.tooltip[x-placement^=right] .tooltip-arrow:after,
+.tooltip[x-placement^=top] .tooltip-arrow:after {
+	-webkit-filter: drop-shadow(-2px 3px 1px rgba(0, 0, 50, .12));
+	filter: drop-shadow(-2px 3px 1px rgba(0, 0, 50, .12))
+}
+
+.tooltip[x-placement^=left] .tooltip-arrow:after {
+	-webkit-filter: drop-shadow(1px 3px 1px rgba(0, 0, 50, .12));
+	filter: drop-shadow(1px 3px 1px rgba(0, 0, 50, .12))
+}
+
+.tooltip[x-placement^=top] {
+	margin-bottom: -1px
+}
+
+.tooltip[x-placement^=top] .tooltip-arrow:after,
+.tooltip[x-placement^=top] .tooltip-arrow:before {
+	border-width: 8px 8px 0 8px;
+	position: fixed
+}
+
+.tooltip[x-placement^=top] .tooltip-arrow:before {
+	border-top-color: #fff;
+	top: calc(100% - 9px)
+}
+
+.tooltip[x-placement^=top] .tooltip-arrow:after {
+	border-bottom-color: #e8e8eb;
+	top: 100%
+}
+
+.tooltip[x-placement^=bottom] {
+	margin-top: -1px
+}
+
+.tooltip[x-placement^=bottom] .tooltip-arrow:after,
+.tooltip[x-placement^=bottom] .tooltip-arrow:before {
+	border-width: 0 8px 8px 8px;
+	margin-top: 0;
+	margin-bottom: 0
+}
+
+.tooltip[x-placement^=bottom] .tooltip-arrow:before {
+	border-bottom-color: #e8e8eb;
+	top: -8px
+}
+
+.tooltip[x-placement^=bottom] .tooltip-arrow:after {
+	top: -7px;
+	border-bottom-color: #fff
+}
+
+.tooltip[x-placement^=right] {
+	margin-left: -1px
+}
+
+.tooltip[x-placement^=right] .tooltip-arrow:after,
+.tooltip[x-placement^=right] .tooltip-arrow:before {
+	border-width: 8px 8px 8px 0
+}
+
+.tooltip[x-placement^=right] .tooltip-arrow:before {
+	border-right-color: #e8e8eb
+}
+
+.tooltip[x-placement^=right] .tooltip-arrow:after {
+	border-right-color: #fff
+}
+
+.tooltip[x-placement^=left] {
+	margin-right: -1px
+}
+
+.tooltip[x-placement^=left] .tooltip-arrow:after,
+.tooltip[x-placement^=left] .tooltip-arrow:before {
+	border-width: 8px 0 8px 8px;
+	margin-left: 0;
+	margin-right: 0
+}
+
+.tooltip[x-placement^=left] .tooltip-arrow:before {
+	border-left-color: #e8e8eb
+}
+
+.tooltip[x-placement^=left] .tooltip-arrow:after {
+	border-left-color: #fff
+}
+
+.brand-footer {
+	width: 100%;
+	z-index: 90;
+	color: #fff;
+	background-color: #000032
+}
+
+@font-face {
+	font-style: normal;
+	font-weight: 300;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-light.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-light.woff) format("woff")
+}
+
+.brand-footer a:active {
+	text-decoration: none
+}
+
+.brand-footer a {
+	color: rgba(255, 255, 255, .6)
+}
+
+.brand-footer a:hover {
+	color: #fff
+}
+
+.brand-footer__wrapper {
+	display: flex;
+	flex-flow: row wrap;
+	max-width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 20px 64px 20px
+}
+
+.brand-footer__logo-container {
+	display: flex;
+	align-items: start;
+	flex-direction: row;
+	width: 100%;
+	height: 104px
+}
+
+@media only screen and (min-width:768px) {
+	.brand-footer__logo-container {
+		height: 144px
+	}
+}
+
+@media only screen and (min-width:1024px) {
+	.brand-footer__logo-container {
+		height: 160px
+	}
+}
+
+.brand-footer__logo {
+	margin-top: auto;
+	margin-bottom: auto;
+	height: 32px;
+	width: 130.3005px
+}
+
+.brand-footer__header {
+	margin-bottom: 24px;
+	margin-top: 0;
+	color: #fff
+}
+
+.brand-footer__section {
+	order: 0;
+	width: 248px;
+	margin-bottom: 24px
+}
+
+.brand-footer__country-selector-section {
+	width: 100%;
+	margin-bottom: 24px
+}
+
+@media only screen and (min-width:1280px) {
+	.brand-footer__country-selector-section {
+		width: 248px;
+		order: 1
+	}
+}
+
+.brand-footer__country-selector-section__wrapper {
+	max-width: 372px
+}
+
+.brand-footer__link {
+	margin-bottom: 24px;
+	padding-right: 24px
+}
+
+.brand-footer__link .btn-install-app {
+	color: rgba(255, 255, 255, .6)
+}
+
+.brand-footer__link .btn-install-app:hover {
+	color: #fff
+}
+
+.brand-footer__link .instagram_icon {
+	width: 18px;
+	height: 18px;
+	fill: rgba(255, 255, 255, .6)
+}
+
+.brand-footer__link:hover .instagram_icon {
+	fill: #fff
+}
+
+.brand-footer__links {
+	list-style: none;
+	margin: 0;
+	padding: 0
+}
+
+.brand-footer__links--large {
+	font-size: 18px;
+	font-size: 1.125rem;
+	line-height: 24px;
+	line-height: 1.5rem
+}
+
+.brand-footer__links--horizontal-phone {
+	display: flex
+}
+
+.brand-footer__links--horizontal-phone>* {
+	margin-right: 16px
+}
+
+.brand-footer__links--horizontal-phone>:last-child {
+	margin-right: 0
+}
+
+@media only screen and (min-width:400px) {
+	.brand-footer__links--horizontal-phone {
+		display: block
+	}
+	.brand-footer__links--horizontal-phone>* {
+		margin-right: 0
+	}
+}
+
+@media only screen and (min-width:768px) {
+	.brand-footer__links--horizontal-when-possible {
+		display: flex
+	}
+	.brand-footer__links--horizontal-when-possible>* {
+		margin-right: 24px
+	}
+	.brand-footer__links--horizontal-when-possible>:last-child {
+		margin-right: 0
+	}
+}
+
+.brand-footer__legal {
+	width: 100%;
+	order: 2
+}
+
+@media only screen and (min-width:768px) {
+	.brand-footer__legal {
+		display: flex;
+		flex-direction: row
+	}
+}
+
+.brand-footer__legal__copyright-text {
+	color: rgba(255, 255, 255, .4)
+}
+
+@media only screen and (min-width:768px) {
+	.brand-footer__legal__copyright-text {
+		flex: 1;
+		text-align: right
+	}
+}
+
+.notification-bar {
+	padding: 16px 0;
+	width: 100%;
+	text-align: center
+}
+
+.notification-bar--success {
+	background-color: #00e99c;
+	color: #000032;
+	box-shadow: 0 12px 20px 0 rgba(0, 0, 50, .12);
+	z-index: 1000
+}
+
+.notification-bar--success hr {
+	border-top-color: #04ffac
+}
+
+.notification-bar--success a {
+	text-decoration: underline;
+	transition: all .1s ease-in
+}
+
+.notification-bar--success a:hover {
+	opacity: .5;
+	text-decoration: underline
+}
+
+.notification-bar--warning {
+	background-color: #ffce00;
+	color: #000032;
+	box-shadow: 0 12px 20px 0 rgba(0, 0, 50, .12);
+	z-index: 1000
+}
+
+.notification-bar--warning hr {
+	border-top-color: #ffdd4d
+}
+
+.notification-bar--warning a {
+	text-decoration: underline;
+	transition: all .1s ease-in
+}
+
+.notification-bar--warning a:hover {
+	opacity: .5;
+	text-decoration: underline
+}
+
+.notification-bar--error {
+	background-color: #ffce00;
+	color: #000032;
+	box-shadow: 0 12px 20px 0 rgba(0, 0, 50, .12);
+	z-index: 1000
+}
+
+.notification-bar--error hr {
+	border-top-color: #ffdd4d
+}
+
+.notification-bar--error a {
+	text-decoration: underline;
+	transition: all .1s ease-in
+}
+
+.notification-bar--error a:hover {
+	opacity: .5;
+	text-decoration: underline
+}
+
+.notification-bar--info {
+	background-color: #f2f2f5;
+	color: #000032;
+	box-shadow: 0 12px 20px 0 rgba(0, 0, 50, .12);
+	z-index: 1000
+}
+
+.notification-bar--info hr {
+	border-top-color: #f2f2f2
+}
+
+.notification-bar--info a {
+	text-decoration: underline;
+	transition: all .1s ease-in
+}
+
+.notification-bar--info a:hover {
+	opacity: .5;
+	text-decoration: underline
+}
+
+.notification-bar--inline.notification-bar {
+	position: static;
+	top: unset
+}
+
+.notification-bar--hidden {
+	display: none
+}
+
+.notification-bar .container {
+	max-width: 1280px;
+	margin: 0 auto;
+	display: flex;
+	padding: 0 20px;
+	align-items: center
+}
+
+.notification-bar .notification-msg {
+	padding-right: 10px;
+	flex: 1
+}
+
+.notification-bar .close-btn {
+	color: #000032;
+	background-color: transparent;
+	border: none;
+	width: 32px;
+	line-height: 32px;
+	height: 32px;
+	margin: 0;
+	align-self: flex-start
+}
+
+.notification-bar .close-btn:hover {
+	cursor: pointer;
+	font-weight: 700
+}
+
+.btn-install-app {
+	display: none;
+	background: 0 0;
+	border: 0;
+	box-shadow: none;
+	padding: 0
+}
+
+.btn-install-app--active {
+	display: block
+}
+
+.search-field {
+	position: relative;
+	box-sizing: border-box!important;
+	-webkit-appearance: none
+}
+
+.autocomplete-suggestions {
+	color: #7e7e7e;
+	border-top: 1px solid #d4d4d4;
+	background: #fff;
+	overflow: auto;
+	padding-bottom: 10px;
+	cursor: pointer;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, .35);
+	text-align: left
+}
+
+.autocomplete-suggestions .autocomplete-no-suggestion,
+.autocomplete-suggestions .autocomplete-suggestion {
+	padding: 6px 15px
+}
+
+.autocomplete-suggestions .businessunit-suggestion {
+	white-space: nowrap
+}
+
+.autocomplete-suggestions .businessunit-suggestion__display-name {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: #202020
+}
+
+.autocomplete-suggestions .businessunit-suggestion__identifying-name {
+	font-size: 12px;
+	overflow: hidden;
+	opacity: .65;
+	text-overflow: ellipsis
+}
+
+.autocomplete-suggestions .category-suggestion {
+	white-space: nowrap
+}
+
+.autocomplete-suggestions .category-suggestion__display-name {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: #202020
+}
+
+.autocomplete-suggestions .category-suggestion__display-text {
+	font-size: 12px;
+	overflow: hidden;
+	opacity: .65;
+	text-overflow: ellipsis
+}
+
+.autocomplete-suggestions .autocomplete-suggestion-header {
+	color: #202020;
+	padding: 16px 0 16px 16px;
+	font-weight: 500;
+	font-size: 12px
+}
+
+.autocomplete-suggestions .autocomplete-section-separator {
+	border-top: 1px;
+	padding: 0 32px 0 32px
+}
+
+.autocomplete-suggestions em {
+	color: #368cd7;
+	font-style: normal;
+	font-weight: 700
+}
+
+.autocomplete-selected {
+	background: #d4d4d4
+}
+
+.autocomplete-selected__arrow {
+	display: none
+}
+
+.showall-suggestion__arrow {
+	display: none
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-style: normal;
+	font-weight: 300;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-light.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-light.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-style: normal;
+	font-weight: 400;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-regular.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-regular.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-weight: 500;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-medium.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-medium.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-weight: 700;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-bold.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-bold.woff) format("woff")
+}
+
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration {
+	-webkit-appearance: none
+}
+
+.autocomplete-suggestions {
+	border: none;
+	box-shadow: 1px 2px 10px -2px rgba(1, 1, 1, .33), 0 2px 7px 0 rgba(22, 65, 89, .05)!important;
+	padding: 8px;
+	box-sizing: border-box;
+	border-radius: 0;
+	z-index: 80
+}
+
+@media only screen and (max-width:1023px) {
+	.header__search-form .autocomplete-suggestions {
+		top: 57px!important;
+		width: 100vw!important;
+		left: -20px!important
+	}
+}
+
+.autocomplete-suggestion {
+	padding: 0!important;
+	display: flex;
+	justify-content: space-between
+}
+
+.autocomplete-selected {
+	background: rgba(26, 102, 255, .1);
+	border-radius: 2px
+}
+
+.autocomplete-selected__arrow {
+	display: none;
+	color: red;
+	width: 13px;
+	height: 10px;
+	margin-bottom: auto;
+	margin-top: auto;
+	margin-right: 24px
+}
+
+.autocomplete-selected:hover .autocomplete-selected__arrow {
+	display: block
+}
+
+.showall-suggestion {
+	background-color: #1a66ff;
+	color: #fff;
+	padding: 8px 24px 8px 16px;
+	flex: 1;
+	font-weight: 700;
+	display: flex;
+	justify-content: space-between;
+	border-radius: 2px;
+	font-size: 12px;
+	font-size: .75rem;
+	line-height: 24px;
+	line-height: 1.5rem
+}
+
+.showall-suggestion__arrow {
+	display: block;
+	width: 12px;
+	height: 24px
+}
+
+.category-name {
+	font-size: 14px;
+	font-size: .875rem;
+	line-height: 20px;
+	line-height: 1.25rem
+}
+
+.businessunit-suggestion {
+	padding: 8px 0 8px 16px
+}
+
+.businessunit-suggestion__display-name {
+	font-weight: 700;
+	font-size: 14px;
+	font-size: .875rem;
+	line-height: 20px;
+	line-height: 1.25rem
+}
+
+.businessunit-suggestion__display-name__highlight {
+	color: #1a66ff!important
+}
+
+.businessunit-suggestion__identifying-name {
+	color: rgba(25, 25, 25, .5);
+	font-size: 12px;
+	font-size: .75rem;
+	line-height: 16px;
+	line-height: 1rem
+}
+
+.businessunit-suggestion__identifying-name__highlight {
+	color: #1a66ff!important;
+	font-weight: 400!important
+}
+
+.category-suggestion {
+	padding: 8px 0 8px 16px
+}
+
+.category-suggestion__display-name {
+	font-weight: 700;
+	font-size: 14px;
+	font-size: .875rem;
+	line-height: 20px;
+	line-height: 1.25rem
+}
+
+.category-suggestion__display-name__highlight {
+	color: #1a66ff!important
+}
+
+.category-suggestion__display-text {
+	color: rgba(25, 25, 25, .5);
+	font-size: 12px;
+	font-size: .75rem;
+	line-height: 16px;
+	line-height: 1rem;
+	font-weight: 400!important
+}
+
+.autocomplete-suggestion-header {
+	padding: 16px 0 8px 16px;
+	font-weight: 500;
+	font-size: 14;
+	color: #1b1b21
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-style: normal;
+	font-weight: 300;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-light.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-light.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-style: normal;
+	font-weight: 400;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-regular.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-regular.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-weight: 500;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-medium.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-medium.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-weight: 700;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-bold.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-bold.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-style: normal;
+	font-weight: 300;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-light.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-light.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-style: normal;
+	font-weight: 400;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-regular.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-regular.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-weight: 500;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-medium.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-medium.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-weight: 700;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-bold.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-bold.woff) format("woff")
+}
+
+@media only screen and (max-width:1023px) {
+	.header__container--nav-on .nav {
+		transform: translateX(-100%)
+	}
+}
+
+.nav__container {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	justify-content: flex-start;
+	color: #fff;
+	position: relative;
+	left: 50%;
+	min-width: 200px;
+	transform: translateX(-50%)
+}
+
+.nav__container a:not(.nav__for-business):active,
+.nav__container a:not(.nav__for-business):hover {
+	color: #fff;
+	text-decoration: none
+}
+
+@media only screen and (min-width:1024px) {
+	.nav__container {
+		position: relative;
+		flex-direction: row;
+		width: auto;
+		top: initial;
+		bottom: initial;
+		right: initial;
+		min-height: auto;
+		padding: 0;
+		justify-content: center;
+		height: 72px
+	}
+}
+
+.nav__categories {
+	margin-bottom: 16px;
+	align-self: flex-start;
+	order: 2;
+	margin-bottom: 16px;
+	transform: translateY(40px)
+}
+
+@media only screen and (min-width:400px) {
+	.nav__categories {
+		transform: translateY(0)
+	}
+}
+
+@media only screen and (min-width:1024px) {
+	.nav__categories {
+		margin-bottom: 0;
+		align-self: center;
+		order: 1
+	}
+}
+
+.nav__for-business {
+	color: #fff;
+	font-weight: initial;
+	order: 1;
+	align-self: flex-start;
+	margin-bottom: 16px;
+	font-size: 24px;
+	font-size: 1.5rem;
+	line-height: 32px;
+	line-height: 2rem;
+	transform: translateY(40px)
+}
+
+@media only screen and (min-width:400px) {
+	.nav__for-business {
+		transform: translateY(0)
+	}
+}
+
+@media only screen and (min-width:1024px) {
+	.nav__for-business {
+		border: 2px solid #fff;
+		margin-bottom: 0;
+		border-radius: 2px;
+		padding: 12px 16px;
+		order: 4;
+		align-self: center;
+		font-size: 14px;
+		font-size: .875rem;
+		line-height: 16px;
+		line-height: 1rem
+	}
+	.nav__for-business:hover {
+		color: #000032;
+		background-color: #fff;
+		text-decoration: none
+	}
+}
+
+.nav__signup {
+	order: 4;
+	transform: translateY(40px)
+}
+
+@media only screen and (min-width:400px) {
+	.nav__signup {
+		transform: translateY(0)
+	}
+}
+
+@media only screen and (min-width:1024px) {
+	.nav__signup {
+		order: 4
+	}
+}
+
+.nav__login {
+	order: 5;
+	transform: translateY(40px)
+}
+
+@media only screen and (min-width:400px) {
+	.nav__login {
+		transform: translateY(0)
+	}
+}
+
+@media only screen and (min-width:1024px) {
+	.nav__login {
+		order: 3
+	}
+}
+
+.nav__install-app {
+	order: 1;
+	margin-bottom: 48px;
+	align-self: flex-start
+}
+
+.nav__install-app .btn-install-app {
+	color: #fff;
+	font-size: 24px
+}
+
+@media only screen and (min-width:1024px) {
+	.nav__install-app {
+		display: none;
+		order: 35
+	}
+}
+
+.nav__categories,
+.nav__login,
+.nav__signup,
+.nav__trust {
+	color: #fff;
+	font-weight: initial;
+	margin-bottom: 16px;
+	align-self: flex-start;
+	font-size: 24px;
+	font-size: 1.5rem;
+	line-height: 32px;
+	line-height: 2rem
+}
+
+@media only screen and (min-width:1024px) {
+	.nav__categories,
+	.nav__login,
+	.nav__signup,
+	.nav__trust {
+		margin-right: 32px;
+		margin-bottom: 0;
+		align-self: center;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		box-sizing: border-box;
+		border-bottom: 3px solid transparent;
+		font-size: 14px;
+		font-size: .875rem;
+		line-height: 16px;
+		line-height: 1rem
+	}
+	.nav__categories:hover,
+	.nav__login:hover,
+	.nav__signup:hover,
+	.nav__trust:hover {
+		border-bottom: 3px solid #fff
+	}
+}
+
+.nav__categories--hidden,
+.nav__login--hidden,
+.nav__signup--hidden,
+.nav__trust--hidden {
+	display: none
+}
+
+.nav__user-link {
+	color: #fff;
+	display: block;
+	font-size: 24px;
+	font-size: 1.5rem;
+	line-height: 32px;
+	line-height: 2rem
+}
+
+@media only screen and (min-width:1024px) {
+	.nav__user-link {
+		font-size: 14px;
+		font-size: .875rem;
+		line-height: 20px;
+		line-height: 1.25rem
+	}
+	.nav__user-link:hover {
+		background-color: #0c244c
+	}
+}
+
+@media only screen and (min-width:1024px) {
+	.nav__user-link:not(.nav__install-app) {
+		padding: 14px 18px
+	}
+}
+
+.nav__user-link:not(.nav__log-out) {
+	margin-bottom: 16px
+}
+
+@media only screen and (min-width:1024px) {
+	.nav__user-link:not(.nav__log-out) {
+		margin-bottom: 0
+	}
+}
+
+.nav__user-link .btn-install-app {
+	color: #fff;
+	width: 100%;
+	text-align: left;
+	cursor: pointer;
+	font-size: 24px;
+	display: none
+}
+
+@media only screen and (min-width:1024px) {
+	.nav__user-link .btn-install-app {
+		padding: 14px 18px;
+		font-size: 14px
+	}
+	.nav__user-link .btn-install-app--active {
+		display: block
+	}
+}
+
+.nav__log-out {
+	position: absolute;
+	bottom: 0;
+	color: rgba(255, 255, 255, .6);
+	text-transform: uppercase;
+	left: 50%;
+	transform: translate(-50%, 130px);
+	font-size: 14px;
+	font-size: .875rem;
+	line-height: 20px;
+	line-height: 1.25rem
+}
+
+@media only screen and (min-width:1024px) {
+	.nav__log-out {
+		color: #fff;
+		position: static;
+		bottom: auto;
+		transform: translateX(0);
+		text-transform: none
+	}
+}
+
+.nav__user__container {
+	order: 2;
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	flex: 1 1 auto;
+	width: 100%
+}
+
+.nav__user__container--hidden {
+	display: none
+}
+
+@media only screen and (min-width:1024px) {
+	.nav__user__container {
+		position: relative;
+		margin-right: 32px;
+		width: auto
+	}
+	.nav__user__container:hover .nav__user__links {
+		display: block
+	}
+}
+
+.nav__user__links {
+	align-self: flex-start;
+	order: 3;
+	width: 100%;
+	transform: translateY(40px);
+	font-size: 24px;
+	font-size: 1.5rem;
+	line-height: 32px;
+	line-height: 2rem
+}
+
+@media only screen and (min-width:400px) {
+	.nav__user__links {
+		transform: translateY(0)
+	}
+}
+
+@media only screen and (min-width:1024px) {
+	.nav__user__links {
+		display: none;
+		align-self: normal;
+		order: 2;
+		background-color: #000032;
+		font-size: 14px;
+		font-size: .875rem;
+		line-height: 20px;
+		line-height: 1.25rem;
+		position: absolute;
+		top: 72px;
+		min-width: 168px;
+		width: calc(100% + 32px);
+		left: 50%;
+		transform: translateX(-50%)
+	}
+}
+
+.nav__user__info {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	order: 4;
+	border-bottom: 3px solid transparent
+}
+
+.nav__user__info__link {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center
+}
+
+@media only screen and (min-width:1024px) {
+	.nav__user__info {
+		margin-left: 0;
+		order: 3;
+		min-height: 72px;
+		min-width: 120px
+	}
+	.nav__user__info__link {
+		pointer-events: none;
+		cursor: default;
+		flex-direction: row;
+		height: 100%;
+		width: 100%
+	}
+	.nav__user__info:hover {
+		border-bottom: 3px solid #fff
+	}
+}
+
+.nav__user-image {
+	width: 72px;
+	margin-bottom: 16px;
+	border-radius: 50%
+}
+
+@media only screen and (min-width:1024px) {
+	.nav__user-image {
+		margin-bottom: 0;
+		width: 35px
+	}
+}
+
+.nav__user-name {
+	color: #fff;
+	margin-bottom: 8px;
+	font-size: 14px;
+	font-size: .875rem;
+	line-height: 20px;
+	line-height: 1.25rem
+}
+
+@media only screen and (min-width:1024px) {
+	.nav__user-name {
+		margin-bottom: 0;
+		margin-left: 8px;
+		max-width: 140px;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+		display: block
+	}
+}
+
+.nav__user-location {
+	color: rgba(255, 255, 255, .6);
+	font-size: 14px;
+	font-size: .875rem;
+	line-height: 20px;
+	line-height: 1.25rem
+}
+
+@media only screen and (min-width:1024px) {
+	.nav__user-location {
+		display: none
+	}
+}
+
+.nav__trust {
+	margin-bottom: 16px;
+	align-self: flex-start;
+	order: 2
+}
+
+.nav__trust__container {
+	align-self: flex-start;
+	order: 1;
+	margin-bottom: 16px
+}
+
+@media only screen and (min-width:1024px) {
+	.nav__trust {
+		margin-bottom: 0;
+		align-self: center;
+		order: 1
+	}
+	.nav__trust__container {
+		position: relative;
+		height: 72px;
+		margin-bottom: 0
+	}
+	.nav__trust__container:hover>.nav__trust-links {
+		display: block
+	}
+}
+
+.nav__trust-links__link {
+	display: block;
+	padding-left: 16px
+}
+
+@media only screen and (min-width:1024px) {
+	.nav__trust-links {
+		display: none;
+		background-color: #000032;
+		position: absolute;
+		top: 69px;
+		width: 174px;
+		line-height: 20px
+	}
+	.nav__trust-links__link {
+		color: #fff;
+		padding: 14px 18px;
+		font-size: 14;
+		margin-bottom: 0
+	}
+}
+
+.header {
+	z-index: 9999
+}
+
+.header__actual {
+	background-color: #000032;
+	width: 100%;
+	height: 72px;
+	z-index: 9999
+}
+
+.header--fixed {
+	height: 72px
+}
+
+.header--fixed .header__actual {
+	position: fixed;
+	top: 0
+}
+
+.header--notification-bar-inline {
+	height: 136px
+}
+
+.header__container {
+	padding: 0 20px;
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 0 auto;
+	justify-content: space-between;
+	max-width: 1280px
+}
+
+.header__wrapper {
+	height: 72px;
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+	align-items: center
+}
+
+.header__search {
+	flex: 1;
+	position: relative
+}
+
+.header__search-form {
+	height: 48px
+}
+
+@media only screen and (min-width:1024px) {
+	.header__search-form {
+		height: auto
+	}
+}
+
+.header__search-field {
+	width: 320px;
+	border-radius: 2px;
+	position: relative;
+	outline: 0;
+	background-color: transparent;
+	padding: 12px 16px 12px 0;
+	text-indent: 40px;
+	color: #fff;
+	border: none;
+	display: none;
+	font-weight: 700;
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 24px;
+	line-height: 1.5rem
+}
+
+.header__container--search-on .header__search-field {
+	display: block
+}
+
+@media only screen and (max-width:1023px) {
+	.header__search-field {
+		width: 100%
+	}
+}
+
+@media only screen and (min-width:1024px) {
+	.header__search-field {
+		border: 2px solid rgba(255, 255, 255, .4);
+		display: block
+	}
+}
+
+.header__search-field::-webkit-input-placeholder {
+	font-weight: 700;
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 24px;
+	line-height: 1.5rem
+}
+
+.header__search-field:-ms-input-placeholder {
+	font-weight: 700;
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 24px;
+	line-height: 1.5rem
+}
+
+.header__search-field::-ms-input-placeholder {
+	font-weight: 700;
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 24px;
+	line-height: 1.5rem
+}
+
+.header__search-field::placeholder {
+	font-weight: 700;
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 24px;
+	line-height: 1.5rem
+}
+
+@media only screen and (min-width:1024px) {
+	.header__search-field::-webkit-input-placeholder {
+		font-size: 14px;
+		font-size: .875rem;
+		line-height: 24px;
+		line-height: 1.5rem
+	}
+	.header__search-field:-ms-input-placeholder {
+		font-size: 14px;
+		font-size: .875rem;
+		line-height: 24px;
+		line-height: 1.5rem
+	}
+	.header__search-field::-ms-input-placeholder {
+		font-size: 14px;
+		font-size: .875rem;
+		line-height: 24px;
+		line-height: 1.5rem
+	}
+	.header__search-field::placeholder {
+		font-size: 14px;
+		font-size: .875rem;
+		line-height: 24px;
+		line-height: 1.5rem
+	}
+}
+
+.header__search-field~.icon-search {
+	color: #00b67a;
+	display: flex;
+	position: absolute;
+	right: 0;
+	top: 48%;
+	cursor: pointer;
+	transform: translateY(-50%);
+	font-weight: 100;
+	font-size: 18px;
+	font-size: 1.125rem;
+	line-height: 24px;
+	line-height: 1.5rem
+}
+
+@media only screen and (min-width:1024px) {
+	.header__search-field~.icon-search {
+		color: rgba(255, 255, 255, .4);
+		right: auto;
+		left: 0;
+		padding: 0 12px 0 16px
+	}
+}
+
+.header__search-field:focus,
+.header__search-field:hover {
+	background-color: transparent;
+	color: #fff
+}
+
+@media only screen and (min-width:1024px) {
+	.header__search-field:focus,
+	.header__search-field:hover {
+		background-color: #fff;
+		color: #1b1b21
+	}
+}
+
+@media only screen and (min-width:1024px) {
+	.header__search-field:focus+.icon-search,
+	.header__search-field:hover+.icon-search {
+		color: #1b1b21
+	}
+}
+
+.header__search-icon {
+	color: #000032
+}
+
+.header__container--search-on .header__search-icon {
+	left: 0
+}
+
+.header__menu {
+	width: 16px;
+	height: 16px;
+	position: relative;
+	transform: rotate(0);
+	transition: .5s ease-in-out;
+	cursor: pointer;
+	margin-left: 32px
+}
+
+@media only screen and (min-width:1024px) {
+	.header__menu {
+		display: none
+	}
+}
+
+.header__menu__line {
+	display: block;
+	position: absolute;
+	height: 2px;
+	width: 100%;
+	background: #00b67a;
+	border-radius: 2px;
+	opacity: 1;
+	left: 0;
+	transform: rotate(0);
+	transition: .25s ease-in-out
+}
+
+.header__menu__line--top {
+	top: 0;
+	transform-origin: left center
+}
+
+.header__menu__line--middle {
+	top: 6px;
+	transform-origin: left center
+}
+
+.header__menu__line--bottom {
+	top: 12px;
+	transform-origin: left center
+}
+
+.header__menu--open .header__menu__line--top {
+	transform: rotate(45deg);
+	top: 1px;
+	left: 3px
+}
+
+.header__menu--open .header__menu__line--middle {
+	width: 0%;
+	opacity: 0
+}
+
+.header__menu--open .header__menu__line--bottom {
+	transform: rotate(-45deg);
+	top: 12px;
+	left: 3px
+}
+
+.logo {
+	display: inline-flex;
+	flex-direction: row;
+	align-items: flex-end
+}
+
+.logo__container {
+	margin-right: 32px
+}
+
+@media only screen and (max-width:1023px) {
+	.header__container--search-on .logo__container {
+		display: none
+	}
+}
+
+.logo__image {
+	width: 140px
+}
+
+.header__container .nav {
+	position: fixed;
+	top: 72px;
+	bottom: 0;
+	min-height: 100vh;
+	width: calc(100% - 50px);
+	right: calc(-100% + 50px);
+	background-color: #000032;
+	transition: transform .3s ease-in-out;
+	padding: 32px 24px 160px;
+	display: flex
+}
+
+@media only screen and (min-width:1024px) {
+	.header__container .nav {
+		position: static;
+		width: auto;
+		top: initial;
+		bottom: initial;
+		right: initial;
+		min-height: 100%;
+		padding: 0;
+		justify-content: center;
+		height: 100%
+	}
+}
+
+.overlay {
+	top: 72px;
+	height: 100%;
+	background-color: rgba(25, 25, 25, .3);
+	width: 100%;
+	position: fixed;
+	z-index: 20
+}
+
+.overlay--hidden {
+	display: none
+}
+
+@media only screen and (min-width:1024px) {
+	.overlay {
+		display: none
+	}
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-style: normal;
+	font-weight: 300;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-light.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-light.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-style: normal;
+	font-weight: 400;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-regular.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-regular.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-weight: 500;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-medium.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-medium.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-weight: 700;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-bold.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-bold.woff) format("woff")
+}
+
+.modal {
+	position: fixed;
+	z-index: 998;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(27, 27, 33, .6)
+}
+
+.modal-dialog {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	box-shadow: 9px 19px 8px rgba(27, 27, 33, .07)
+}
+
+@media only screen and (min-width:640px) {
+	.modal-dialog {
+		top: 20%;
+		bottom: auto;
+		left: 50%;
+		transform: translate(-50%, 0);
+		width: 630px;
+		height: auto;
+		max-height: 480px;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px
+	}
+}
+
+.modal-dialog-header {
+	display: flex;
+	flex: 0 0 auto;
+	justify-content: center;
+	color: #000032;
+	text-align: center;
+	border-bottom: 1px solid #f2f2f5;
+	padding: 16px 40px
+}
+
+@media only screen and (min-width:640px) {
+	.modal-dialog-header {
+		justify-content: space-between;
+		padding: 16px 40px 16px 24px
+	}
+}
+
+.modal-dialog-header__dismiss {
+	position: absolute;
+	top: 16px;
+	right: 16px;
+	cursor: pointer;
+	background: 0 0;
+	border: 0;
+	font-size: 24px;
+	font-size: 1.5rem;
+	line-height: 24px;
+	line-height: 1.5rem;
+	font-weight: 700
+}
+
+.modal-dialog-body {
+	flex: 1 1 auto;
+	padding: 24px;
+	overflow-y: auto
+}
+
+@media only screen and (min-width:640px) {
+	.modal-dialog-body {
+		flex: 0 1 auto
+	}
+}
+
+.modal-dialog-footer {
+	flex: 0 0 auto
+}
+
+.modal-dialog-footer * {
+	display: block;
+	width: 100%
+}
+
+@media only screen and (max-width:639px) {
+	.modal-dialog-footer .button:last-of-type {
+		margin-bottom: 0;
+		border-radius: 0
+	}
+}
+
+@media only screen and (min-width:640px) {
+	.modal-dialog-footer {
+		text-align: right;
+		padding: 0 24px 24px
+	}
+	.modal-dialog-footer * {
+		display: inline-block;
+		width: auto
+	}
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-style: normal;
+	font-weight: 300;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-light.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-light.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-style: normal;
+	font-weight: 400;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-regular.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-regular.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-weight: 500;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-medium.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-medium.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-weight: 700;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-bold.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-bold.woff) format("woff")
+}
+
+.button[data-v-e501c1b4] {
+	display: block;
+	position: relative;
+	text-align: center;
+	border-radius: 2px;
+	padding-left: 16px;
+	padding-right: 16px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	overflow: hidden;
+	transition: background-color .2s linear;
+	width: 100%;
+	min-width: 48px;
+	margin-bottom: 8px;
+	height: 44px;
+	white-space: nowrap;
+	font-weight: 500;
+	background-color: #c5c5d6;
+	border: 0;
+	font-size: 14px;
+	font-size: .875rem;
+	line-height: 24px;
+	line-height: 1.5rem
+}
+
+.button [data-v-e501c1b4] {
+	font-size: 14px;
+	font-size: .875rem;
+	line-height: 24px;
+	line-height: 1.5rem
+}
+
+@media only screen and (min-width:480px) {
+	.button[data-v-e501c1b4] {
+		display: inline-block
+	}
+}
+
+.button+.button-group[data-v-e501c1b4] {
+	margin-left: 8px
+}
+
+.button+.button[data-v-e501c1b4] {
+	margin-left: 0
+}
+
+@media only screen and (min-width:768px) {
+	.button+.button[data-v-e501c1b4] {
+		margin-left: 8px
+	}
+}
+
+.button .icon--hidden[data-v-e501c1b4] {
+	display: none
+}
+
+.button .icon[data-v-e501c1b4] {
+	position: relative
+}
+
+.button svg.icon[data-v-e501c1b4] {
+	top: -1px
+}
+
+.button [class*=icon-]:not(.icon--hidden)+span[data-v-e501c1b4],
+.button svg+span[data-v-e501c1b4] {
+	margin-left: 2px;
+	margin-right: 0
+}
+
+.button--align-left[data-v-e501c1b4] {
+	float: left;
+	clear: left
+}
+
+.button--align-right[data-v-e501c1b4] {
+	float: right;
+	clear: right
+}
+
+.button span:not(.icon)+[class*=icon-][data-v-e501c1b4],
+.button span:not(.icon)+svg[data-v-e501c1b4] {
+	margin-left: 2px
+}
+
+@media only screen and (min-width:480px) {
+	.button[data-v-e501c1b4] {
+		width: auto;
+		margin-bottom: 0
+	}
+}
+
+.button--small[data-v-e501c1b4] {
+	padding-left: 12px;
+	padding-right: 12px;
+	height: 32px
+}
+
+.button--small [class*=icon-]+span[data-v-e501c1b4],
+.button--small svg+span[data-v-e501c1b4] {
+	margin-left: 2px;
+	margin-right: 0
+}
+
+.button--small span:not(.icon)+[class*=icon-][data-v-e501c1b4],
+.button--small span:not(.icon)+svg[data-v-e501c1b4] {
+	margin-left: 2px
+}
+
+.button--large[data-v-e501c1b4] {
+	padding: 4px 16px;
+	height: 48px;
+	font-size: 18px;
+	font-size: 1.125rem;
+	line-height: 32px;
+	line-height: 2rem
+}
+
+.button--large [class*=icon-]+span[data-v-e501c1b4],
+.button--large svg+span[data-v-e501c1b4] {
+	margin-left: 2px;
+	margin-right: 0
+}
+
+.button--large span:not(.icon)+[class*=icon-][data-v-e501c1b4],
+.button--large span:not(.icon)+svg[data-v-e501c1b4] {
+	margin-left: 2px
+}
+
+.button--xlarge[data-v-e501c1b4] {
+	padding-left: 24px;
+	padding-right: 24px;
+	height: 56px;
+	font-size: 18px;
+	font-size: 1.125rem;
+	line-height: 32px;
+	line-height: 2rem
+}
+
+.button--xlarge [class*=icon-]+span[data-v-e501c1b4],
+.button--xlarge svg+span[data-v-e501c1b4] {
+	margin-left: 2px;
+	margin-right: 0
+}
+
+.button--xlarge span:not(.icon)+[class*=icon-][data-v-e501c1b4],
+.button--xlarge span:not(.icon)+svg[data-v-e501c1b4] {
+	margin-left: 2px
+}
+
+.button[data-v-e501c1b4]:hover {
+	text-decoration: none
+}
+
+.button[data-v-e501c1b4]:active {
+	border-color: #1a66ff;
+	outline: 0
+}
+
+.button[data-v-e501c1b4]:focus {
+	outline: thin dotted #333;
+	outline: 2px auto #99c4ff;
+	outline-offset: -2px;
+	text-decoration: none;
+	color: inherit
+}
+
+.button--loading.button--loading[data-v-e501c1b4] {
+	pointer-events: none;
+	color: transparent!important
+}
+
+.button--loading.button--loading[data-v-e501c1b4]:after {
+	animation: btn-loading-state-data-v-e501c1b4 .5s infinite linear;
+	border: 2px solid #fff;
+	border-radius: 100%;
+	border-right-color: transparent;
+	border-top-color: transparent;
+	content: "";
+	display: block;
+	height: 24px;
+	position: relative;
+	width: 24px;
+	position: absolute;
+	left: calc(50% - (24px / 2));
+	top: calc(50% - (24px / 2));
+	position: absolute
+}
+
+@keyframes btn-loading-state-data-v-e501c1b4 {
+	from {
+		transform: rotate(0)
+	}
+	to {
+		transform: rotate(359deg)
+	}
+}
+
+.button--disabled[data-v-e501c1b4],
+.button[data-v-e501c1b4]:disabled {
+	cursor: not-allowed;
+	box-shadow: none;
+	opacity: .6
+}
+
+.button--disabled[data-v-e501c1b4]:active,
+.button--disabled[data-v-e501c1b4]:focus,
+.button--disabled[data-v-e501c1b4]:hover,
+.button[data-v-e501c1b4]:disabled:active,
+.button[data-v-e501c1b4]:disabled:focus,
+.button[data-v-e501c1b4]:disabled:hover {
+	outline: 0
+}
+
+.button--flexible[data-v-e501c1b4] {
+	height: auto;
+	min-height: 44px;
+	max-height: 80px;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	white-space: normal;
+	padding-bottom: 8px
+}
+
+.button--flexible--light-shadow[data-v-e501c1b4],
+.button--flexible--light[data-v-e501c1b4],
+.button--flexible--link[data-v-e501c1b4] {
+	min-height: 32px;
+	padding-bottom: 4px
+}
+
+.button--light-shadow[data-v-e501c1b4],
+.button--light[data-v-e501c1b4] {
+	background-color: #fff;
+	border: 1px solid #e8e8eb
+}
+
+.button--light-shadow.button--loading[data-v-e501c1b4]:after,
+.button--light.button--loading[data-v-e501c1b4]:after {
+	border: 2px solid #6f6f87;
+	border-top-color: transparent;
+	border-right-color: transparent
+}
+
+.button--light-shadow[data-v-e501c1b4]:focus,
+.button--light-shadow[data-v-e501c1b4]:hover,
+.button--light[data-v-e501c1b4]:focus,
+.button--light[data-v-e501c1b4]:hover {
+	background-color: #f2f2f5
+}
+
+.button--light-shadow[data-v-e501c1b4],
+.button--light[data-v-e501c1b4] {
+	color: #1b1b21
+}
+
+.button--link[data-v-e501c1b4] {
+	color: #1a66ff;
+	background: 0 0;
+	border-width: 0
+}
+
+.button--link[data-v-e501c1b4]:focus {
+	outline: 0!important;
+	color: #1a66ff!important
+}
+
+.button--subtle[data-v-e501c1b4] {
+	background-color: transparent;
+	color: #73738f;
+	border: none;
+	cursor: pointer;
+	font-weight: 400
+}
+
+.button--subtle.button--loading[data-v-e501c1b4]:after {
+	border: 2px solid #6f6f87;
+	border-top-color: transparent;
+	border-right-color: transparent
+}
+
+.button--subtle[data-v-e501c1b4]:focus,
+.button--subtle[data-v-e501c1b4]:hover {
+	background-color: transparent;
+	color: #000032
+}
+
+.button--subtle .icon[data-v-e501c1b4] {
+	width: 14px;
+	height: 14px
+}
+
+.button--subtle-label-below[data-v-e501c1b4] {
+	height: auto!important
+}
+
+@media only screen and (min-width:640px) {
+	.button--subtle-label-below[data-v-e501c1b4] {
+		height: 32px
+	}
+}
+
+.button--subtle-label-below .icon[data-v-e501c1b4] {
+	display: block;
+	margin: auto
+}
+
+@media only screen and (min-width:640px) {
+	.button--subtle-label-below .icon[data-v-e501c1b4] {
+		display: inline
+	}
+}
+
+.button--subtle-label-below .icon+span[data-v-e501c1b4] {
+	font-size: 12px;
+	font-size: .75rem;
+	line-height: 20px;
+	line-height: 1.25rem
+}
+
+@media only screen and (min-width:640px) {
+	.button--subtle-label-below .icon+span[data-v-e501c1b4] {
+		font-size: 14px;
+		font-size: .875rem;
+		line-height: 24px;
+		line-height: 1.5rem
+	}
+}
+
+.button--l94[data-v-e501c1b4] {
+	background-color: #f2f2f2;
+	border-color: #f2f2f2;
+	box-shadow: none;
+	color: #292929
+}
+
+.button--l94.button--loading[data-v-e501c1b4]:after {
+	border: 2px solid #7e7e7e;
+	border-top-color: transparent;
+	border-right-color: transparent
+}
+
+.button--l94[data-v-e501c1b4]:hover {
+	background-color: #d9d9d9;
+	border-color: #d9d9d9
+}
+
+.button--light-shadow[data-v-e501c1b4],
+.button--light[data-v-e501c1b4],
+.button--link[data-v-e501c1b4],
+.button--subtle[data-v-e501c1b4] {
+	padding: 4px 8px;
+	height: 32px
+}
+
+.button--light-shadow[data-v-e501c1b4]:focus,
+.button--light[data-v-e501c1b4]:focus,
+.button--link[data-v-e501c1b4]:focus,
+.button--subtle[data-v-e501c1b4]:focus {
+	outline: 2px auto #e8e8eb
+}
+
+.button--light [class*=icon-]+span[data-v-e501c1b4],
+.button--light-shadow [class*=icon-]+span[data-v-e501c1b4],
+.button--link [class*=icon-]+span[data-v-e501c1b4],
+.button--subtle [class*=icon-]+span[data-v-e501c1b4] {
+	margin-left: 2px;
+	margin-right: 0
+}
+
+.button--light span:not(.icon)+[class*=icon-][data-v-e501c1b4],
+.button--light-shadow span:not(.icon)+[class*=icon-][data-v-e501c1b4],
+.button--link span:not(.icon)+[class*=icon-][data-v-e501c1b4],
+.button--subtle span:not(.icon)+[class*=icon-][data-v-e501c1b4] {
+	margin-left: 2px
+}
+
+.button--light-shadow.button--large[data-v-e501c1b4],
+.button--light.button--large[data-v-e501c1b4],
+.button--link.button--large[data-v-e501c1b4],
+.button--subtle.button--large[data-v-e501c1b4] {
+	padding: 0 8px
+}
+
+.button--light-shadow[data-v-e501c1b4] {
+	box-shadow: 0 0 5px 1px #e8e8eb
+}
+
+.button--primary[data-v-e501c1b4] {
+	background-color: #1a66ff;
+	color: #fff
+}
+
+.button--primary[data-v-e501c1b4]:active,
+.button--primary[data-v-e501c1b4]:focus,
+.button--primary[data-v-e501c1b4]:hover {
+	color: #fff;
+	background-color: #1c52bd
+}
+
+.button--secondary[data-v-e501c1b4] {
+	background-color: #fff;
+	color: #1b1b21;
+	border: 1px solid #9a9aad
+}
+
+.button--secondary.button--loading[data-v-e501c1b4]:after {
+	border: 2px solid #9a9aad;
+	border-top-color: transparent;
+	border-right-color: transparent
+}
+
+.button--secondary[data-v-e501c1b4]:focus,
+.button--secondary[data-v-e501c1b4]:hover {
+	background-color: #fff;
+	color: #1b1b21
+}
+
+.button .icon--primary[data-v-e501c1b4] {
+	color: #fff
+}
+
+.button .icon--secondary[data-v-e501c1b4] {
+	color: #1b1b21
+}
+
+.button--ellipsis[data-v-e501c1b4] {
+	width: 120px;
+	white-space: nowrap;
+	overflow: hidden!important;
+	text-overflow: ellipsis
+}
+
+.button--block[data-v-e501c1b4] {
+	width: 100%;
+	clear: both
+}
+
+.button--block+.button[data-v-e501c1b4] {
+	margin-left: 0!important
+}
+
+.button--inline-block[data-v-e501c1b4] {
+	width: auto;
+	display: inline-block
+}
+
+.button img[data-v-e501c1b4] {
+	vertical-align: text-top
+}
+
+a.button[data-v-e501c1b4] {
+	overflow: initial
+}
+
+a.button--primary[data-v-e501c1b4],
+a.button--secondary[data-v-e501c1b4] {
+	padding-top: 10px
+}
+
+a.button--small[data-v-e501c1b4] {
+	padding-top: 4px!important
+}
+
+a.button--large[data-v-e501c1b4] {
+	padding-top: 8px!important
+}
+
+.button-group[data-v-e501c1b4] {
+	margin-bottom: 8px;
+	display: inline-block;
+	white-space: nowrap;
+	width: 100%;
+	margin-bottom: 8px;
+	border-radius: 5px;
+	overflow: hidden
+}
+
+.button-group+.button[data-v-e501c1b4] {
+	margin-left: 8px
+}
+
+.button-group+.button-group[data-v-e501c1b4] {
+	margin-left: 8px
+}
+
+.button-group--active .button [class*=icon-][data-v-e501c1b4],
+.button-group--active .button[data-v-e501c1b4] {
+	color: #1a66ff
+}
+
+.button-group--active .button-group__addon.button-group__addon[data-v-e501c1b4] {
+	color: #fff;
+	background-color: #1a66ff;
+	line-height: 1.5rem
+}
+
+.button-group--active .button-group__addon.button-group__addon [class*=icon-][data-v-e501c1b4] {
+	color: #fff
+}
+
+@media only screen and (min-width:480px) {
+	.button-group[data-v-e501c1b4] {
+		width: auto;
+		margin-bottom: 0
+	}
+}
+
+.button-group .button[data-v-e501c1b4] {
+	border-radius: 0;
+	margin: 0;
+	border: none;
+	box-shadow: none;
+	background-color: #fff;
+	width: auto
+}
+
+.button-group .button+.button[data-v-e501c1b4] {
+	margin-left: 0
+}
+
+.button-group .button[data-v-e501c1b4]:hover {
+	background-color: #f2f2f5
+}
+
+.button-group .button--small[data-v-e501c1b4] {
+	padding: 4px 16px!important
+}
+
+.button-group .button[data-v-e501c1b4]:first-child:not(:last-child) {
+	margin-right: -4px;
+	border: 0;
+	border-right: 1px solid #e8e8eb
+}
+
+.button-group .button[data-v-e501c1b4]:last-child:not(:first-child) {
+	margin-left: -4px;
+	border: 0;
+	border-left: 1px solid #e8e8eb
+}
+
+.button-group .button--large[data-v-e501c1b4]:first-child {
+	border-right: 2px solid #e8e8eb
+}
+
+.button-group .button--large[data-v-e501c1b4]:last-child {
+	border-left: 2px solid #e8e8eb
+}
+
+.button-group__addon.button-group__addon[data-v-e501c1b4] {
+	background-color: #c5c5d6;
+	color: #fff;
+	cursor: default;
+	pointer-events: none
+}
+
+.button-group__addon.button-group__addon.button[data-v-e501c1b4] {
+	padding-left: 16px;
+	padding-right: 16px
+}
+
+.button-group__addon.button-group__addon.button--small[data-v-e501c1b4] {
+	padding-left: 16px;
+	padding-right: 16px
+}
+
+h4[data-v-e501c1b4] {
+	margin-top: 0;
+	font-size: 14px;
+	font-weight: 700
+}
+
+.stack-carousel {
+	display: flex;
+	flex-direction: column;
+	max-width: 1160px;
+	position: relative;
+	box-sizing: border-box;
+	justify-content: flex-end
+}
+
+.stack-carousel__control {
+	z-index: 3;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 88px;
+	height: 88px;
+	outline: 0;
+	cursor: pointer;
+	border: none;
+	background: 0 0
+}
+
+.stack-carousel__control:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	width: 100%;
+	height: 100%;
+	background-image: url(../assets/arrowleft.svg)
+}
+
+.stack-carousel__control__thumbnail {
+	background-position: center;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: none
+}
+
+@media only screen and (min-width:768px) {
+	.stack-carousel__control__thumbnail {
+		background-color: #000032;
+		display: block
+	}
+}
+
+.stack-carousel__control__prev {
+	left: 0
+}
+
+@media only screen and (min-width:768px) {
+	.stack-carousel__control__prev {
+		left: auto;
+		transform: translateY(-105%)
+	}
+}
+
+.stack-carousel__control__next {
+	right: 0
+}
+
+.stack-carousel__control__next:after {
+	transform: rotate(180deg)
+}
+
+@media only screen and (min-width:768px) {
+	.stack-carousel__control__next {
+		transform: translateY(5%)
+	}
+}
+
+@media only screen and (min-width:768px) {
+	.stack-carousel__control {
+		position: absolute;
+		right: 48px;
+		top: 50%
+	}
+}
+
+@media only screen and (min-width:1280px) {
+	.stack-carousel__control {
+		right: -48px
+	}
+}
+
+.stack-carousel__layer {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	transition: .45s width cubic-bezier(.65, .05, .36, 1);
+	margin: 0;
+	overflow: hidden;
+	width: 100%;
+	will-change: width
+}
+
+.stack-carousel__layer:first-of-type {
+	position: inherit
+}
+
+@media only screen and (min-width:768px) {
+	.stack-carousel__layer {
+		bottom: -36px
+	}
+}
+
+.stack-carousel__layer--hidden {
+	width: 0
+}
+
+.stack-carousel--fixed-size {
+	height: 600px;
+	margin: 48px auto
+}
+
+.stack-carousel--fixed-size .stack-carousel__layer:first-of-type {
+	position: absolute
+}
+
+@media only screen and (min-width:480px) {
+	.stack-carousel--fixed-size {
+		height: 800px
+	}
+}
+
+.stack-carousel--fixed-size .stack-carousel__control {
+	top: 120px
+}
+
+@media only screen and (min-width:768px) {
+	.stack-carousel--fixed-size {
+		height: 520px
+	}
+	.stack-carousel--fixed-size .stack-carousel__control {
+		top: 50%
+	}
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-style: normal;
+	font-weight: 300;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-light.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-light.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-style: normal;
+	font-weight: 400;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-regular.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-regular.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-weight: 500;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-medium.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-medium.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-weight: 700;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-bold.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-bold.woff) format("woff")
+}
+
+.hero {
+	grid-column: 1/13;
+	background: #e3a9b4 url(../assets/hero-768.jpg) no-repeat center;
+	background-size: auto 100%;
+	background-position: -280px top;
+	padding: 56px 24px 250px
+}
+
+@media only screen and (min-width:400px) {
+	.hero {
+		background-position: -200px top
+	}
+}
+
+@media only screen and (min-width:480px) {
+	.hero {
+		background-position: 65% top;
+		background-size: auto
+	}
+}
+
+@media only screen and (min-width:768px) {
+	.hero {
+		background: #e3a9b4 url(../assets/hero.jpg) no-repeat;
+		background-position: 65% top;
+		padding: 94px 24px 180px;
+		background-size: auto 100%
+	}
+}
+
+@media only screen and (min-width:1024px) {
+	.hero {
+		background: #e3a9b4 url(../assets/hero.jpg) no-repeat;
+		background-position: center top;
+		background-size: auto 100%
+	}
+}
+
+.hero-container {
+	max-width: 600px;
+	margin: 0 auto
+}
+
+@media only screen and (min-width:768px) {
+	.hero-container {
+		text-align: center
+	}
+}
+
+.hero-title {
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 32px;
+	font-size: 20px;
+	font-size: 1.25rem;
+	line-height: 28px;
+	line-height: 1.75rem
+}
+
+@media only screen and (min-width:768px) {
+	.hero-title {
+		margin-bottom: 48px;
+		font-size: 46px;
+		font-size: 2.875rem;
+		line-height: 60px;
+		line-height: 3.75rem
+	}
+}
+
+.hero-sub-title {
+	color: #fff;
+	margin-bottom: 8px;
+	font-weight: 500;
+	font-size: 14px;
+	font-size: .875rem;
+	line-height: 20px;
+	line-height: 1.25rem
+}
+
+@media only screen and (min-width:768px) {
+	.hero-sub-title {
+		margin-bottom: 16px;
+		font-size: 18px;
+		font-size: 1.125rem;
+		line-height: 24px;
+		line-height: 1.5rem
+	}
+}
+
+.hero__search-form {
+	max-width: 600px;
+	position: relative;
+	margin: 0 auto
+}
+
+.hero__search-form__placeholder-icon {
+	position: absolute;
+	opacity: .2;
+	font-size: 15px;
+	line-height: 15px;
+	padding: 23px 0 23px 24px
+}
+
+@media only screen and (min-width:768px) {
+	.hero__search-form__placeholder-icon {
+		padding: 27px 0 27px 24px
+	}
+}
+
+.hero__search-form__submit {
+	box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, .13), 0 0 12px 0 rgba(255, 255, 255, .1);
+	position: absolute;
+	right: 0;
+	margin: 10px;
+	width: 56px;
+	height: 48px;
+	background-color: #1a66ff;
+	border-radius: 3px;
+	border: none;
+	color: #fff;
+	padding: 12px 20px;
+	top: 0;
+	cursor: pointer;
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 24px;
+	line-height: 1.5rem
+}
+
+.hero__search-form__submit:hover {
+	background-color: #0155ff
+}
+
+@media only screen and (min-width:768px) {
+	.hero__search-form__submit {
+		padding: 16px 24px;
+		width: auto;
+		height: auto;
+		margin: 8px
+	}
+}
+
+.hero__search-form__submit__text {
+	display: none
+}
+
+@media only screen and (min-width:768px) {
+	.hero__search-form__submit__text {
+		display: inline-block
+	}
+}
+
+@media only screen and (min-width:768px) {
+	.hero__search-form__submit__icon {
+		display: none
+	}
+}
+
+.hero__search-input {
+	font-weight: 700;
+	color: #1b1b21;
+	width: 100%;
+	outline: 0;
+	padding: 20px 72px 24px 0;
+	text-indent: 48px;
+	border-radius: 3px;
+	background-color: #fff;
+	border: none;
+	box-shadow: 1px 2px 5px -2px rgba(1, 1, 1, .1), 0 2px 7px 0 rgba(22, 65, 89, .03);
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 24px;
+	line-height: 1.5rem
+}
+
+@media only screen and (min-width:768px) {
+	.hero__search-input {
+		padding: 23px 72px 24px 0
+	}
+}
+
+.hero__search-input::-webkit-input-placeholder {
+	color: rgba(25, 25, 25, .3);
+	font-weight: 400;
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 24px;
+	line-height: 1.5rem
+}
+
+.hero__search-input:-ms-input-placeholder {
+	color: rgba(25, 25, 25, .3);
+	font-weight: 400;
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 24px;
+	line-height: 1.5rem
+}
+
+.hero__search-input::-ms-input-placeholder {
+	color: rgba(25, 25, 25, .3);
+	font-weight: 400;
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 24px;
+	line-height: 1.5rem
+}
+
+.hero__search-input::placeholder {
+	color: rgba(25, 25, 25, .3);
+	font-weight: 400;
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 24px;
+	line-height: 1.5rem
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-style: normal;
+	font-weight: 300;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-light.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-light.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-style: normal;
+	font-weight: 400;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-regular.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-regular.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-weight: 500;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-medium.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-medium.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-weight: 700;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-bold.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-bold.woff) format("woff")
+}
+
+.business-unit-first-review-card {
+	font-size: 14px;
+	font-size: .875rem;
+	line-height: 20px;
+	line-height: 1.25rem
+}
+
+.business-unit-first-review-card__name {
+	display: block;
+	font-weight: 700
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-style: normal;
+	font-weight: 300;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-light.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-light.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-style: normal;
+	font-weight: 400;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-regular.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-regular.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-weight: 500;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-medium.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-medium.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-weight: 700;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-bold.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-bold.woff) format("woff")
+}
+
+.review-card__header {
+	display: flex;
+	align-items: center
+}
+
+.review-card__header .profile-image {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	overflow: hidden
+}
+
+.review-card__header .star-rating {
+	margin: 0 0 0 8px
+}
+
+.review-card__author {
+	margin-top: 8px;
+	color: #adadad;
+	font-weight: 400;
+	font-size: 12px;
+	font-size: .75rem;
+	line-height: 16px;
+	line-height: 1rem
+}
+
+.review-card__author a {
+	font-weight: 700;
+	color: #1b1b21
+}
+
+.review-card__body {
+	overflow: hidden;
+	margin-top: 12px;
+	font-size: 14px;
+	font-size: .875rem;
+	line-height: 20px;
+	line-height: 1.25rem
+}
+
+.star-rating {
+	width: 100%;
+	display: flex
+}
+
+.star-rating--small {
+	width: 88px;
+	height: 16px
+}
+
+.star-rating--medium {
+	width: 108px;
+	height: 20px
+}
+
+.star-rating--large {
+	width: 216px;
+	height: 40px
+}
+
+.star-rating img {
+	max-width: 100%;
+	width: 100%
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-style: normal;
+	font-weight: 300;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-light.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-light.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-style: normal;
+	font-weight: 400;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-regular.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-regular.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-weight: 500;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-medium.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-medium.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-weight: 700;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-bold.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-bold.woff) format("woff")
+}
+
+@keyframes placeHolderShimmer {
+	0% {
+		background-position: -468px 0
+	}
+	100% {
+		background-position: 468px 0
+	}
+}
+
+.placeholder-background {
+	will-change: background;
+	animation: 2s linear infinite normal forwards placeHolderShimmer;
+	background: #f2f2f2;
+	background: linear-gradient(to right, #f2f2f2 8%, #d4d4d4 18%, #f2f2f2 33%);
+	background-size: 800px 104px;
+	position: relative
+}
+
+.placeholder-masker {
+	position: absolute;
+	box-sizing: border-box
+}
+
+.placeholder-masker__image {
+	height: 40px;
+	width: 40px;
+	border-radius: 100%;
+	top: 20px;
+	left: 20px
+}
+
+.placeholder-masker__stars {
+	top: 30px;
+	left: 80px;
+	width: 135px;
+	background-color: #fff
+}
+
+.placeholder-masker__star {
+	display: inline-block;
+	background-color: #f2f2f2
+}
+
+.placeholder-masker__star:after {
+	content: "✭";
+	white-space: pre;
+	color: #fff;
+	width: 20px;
+	height: 20px;
+	padding: 0 5px
+}
+
+.placeholder-masker__header {
+	top: 80px;
+	left: 20px;
+	right: 105px;
+	height: 12px
+}
+
+.placeholder-masker__content-first-line {
+	top: 120px;
+	left: 20px;
+	right: 25px;
+	height: 10px
+}
+
+.placeholder-masker__content-second-line {
+	top: 140px;
+	left: 20px;
+	right: 105px;
+	height: 10px
+}
+
+.placeholder-masker__content-third-line {
+	top: 160px;
+	left: 0;
+	right: 0;
+	height: 10px
+}
+
+.activity-stream-placeholder-wrapper {
+	width: 100%;
+	overflow: hidden;
+	display: flex
+}
+
+.activity-stream-placeholder-wrapper .activity-stream-placeholder-column {
+	width: 100%;
+	margin: 12px;
+	padding: 0;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center
+}
+
+.activity-stream-placeholder-wrapper .activity-stream-placeholder-column .activity-stream-placeholder--large {
+	height: 219px
+}
+
+.activity-stream-placeholder-wrapper .activity-stream-placeholder-column:first-of-type,
+.activity-stream-placeholder-wrapper .activity-stream-placeholder-column:last-of-type {
+	display: none
+}
+
+@media only screen and (min-width:768px) {
+	.activity-stream-placeholder-wrapper .activity-stream-placeholder-column {
+		width: 50%
+	}
+}
+
+@media only screen and (min-width:1024px) {
+	.activity-stream-placeholder-wrapper .activity-stream-placeholder-column {
+		width: 25%
+	}
+	.activity-stream-placeholder-wrapper .activity-stream-placeholder-column:first-of-type {
+		display: flex;
+		width: 25%;
+		margin-left: 36px
+	}
+	.activity-stream-placeholder-wrapper .activity-stream-placeholder-column:first-of-type:before {
+		width: 20px;
+		height: 300px;
+		position: absolute;
+		left: 0;
+		background-color: #fff;
+		content: "-";
+		color: #fff
+	}
+	.activity-stream-placeholder-wrapper .activity-stream-placeholder-column:first-of-type .activity-stream-placeholder--large {
+		height: 239px
+	}
+	.activity-stream-placeholder-wrapper .activity-stream-placeholder-column:last-of-type {
+		display: flex;
+		width: 25%;
+		margin-right: 36px
+	}
+	.activity-stream-placeholder-wrapper .activity-stream-placeholder-column:last-of-type:after {
+		width: 20px;
+		height: 300px;
+		position: absolute;
+		right: 0;
+		background-color: #fff;
+		content: "-";
+		color: #fff
+	}
+	.activity-stream-placeholder-wrapper .activity-stream-placeholder-column:last-of-type .activity-stream-placeholder--large {
+		height: 209px
+	}
+}
+
+.activity-stream-placeholder {
+	background: #fff;
+	padding: 22px 20px;
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 24px;
+	min-width: 226px
+}
+
+.activity-stream-placeholder--small {
+	height: 94px
+}
+
+.activity-stream-placeholder--small .placeholder-masker__header {
+	top: 20px;
+	left: 20px;
+	right: 105px;
+	height: 12px
+}
+
+.activity-stream-placeholder--small .placeholder-masker__content-first-line {
+	top: 50px;
+	left: 20px;
+	right: 25px;
+	height: 10px
+}
+
+.activity-stream-placeholder--medium {
+	min-height: 167px
+}
+
+.activity-stream-placeholder--large {
+	min-height: 209px
+}
+
+.stream {
+	margin-top: -184px
+}
+
+@media only screen and (min-width:768px) {
+	.stream {
+		margin-top: -120px
+	}
+}
+
+.activity-stream {
+	touch-action: none
+}
+
+.activity-stream-header {
+	position: relative;
+	margin-left: 24px;
+	color: rgba(255, 255, 255, .6);
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 24px;
+	line-height: 1.5rem
+}
+
+@media only screen and (min-width:768px) {
+	.activity-stream-header {
+		margin-left: 60px
+	}
+}
+
+.activity-stream-wrapper {
+	display: flex;
+	overflow-x: hidden;
+	overflow-y: visible;
+	width: 100%;
+	max-width: 2560px
+}
+
+.activity-stream-column {
+	min-width: 240px;
+	max-width: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 86vw;
+	padding: 8px
+}
+
+@media only screen and (min-width:560px) {
+	.activity-stream-column {
+		width: 25vw
+	}
+}
+
+@media only screen and (min-width:1280px) {
+	.activity-stream-column {
+		width: 20vw
+	}
+}
+
+@media only screen and (min-width:1440px) {
+	.activity-stream-column {
+		padding: 12px
+	}
+}
+
+.activity-stream-column-container {
+	display: flex;
+	align-items: center;
+	justify-content: center
+}
+
+.activity-stream-card {
+	transition: transform .8s, box-shadow .8s;
+	background-color: #fff;
+	padding: 24px;
+	width: 100%;
+	margin: 0 0 16px 0;
+	box-shadow: 0 3px 3px 0 transparent;
+	z-index: 10
+}
+
+@media only screen and (min-width:1440px) {
+	.activity-stream-card {
+		margin-bottom: 24px
+	}
+}
+
+.activity-stream-card:hover {
+	transform: perspective(1px) scale(1.05);
+	box-shadow: 0 3px 25px 0 rgba(0, 0, 0, .1)
+}
+
+.star-rating {
+	width: 100%;
+	display: flex
+}
+
+.star-rating--small {
+	width: 88px;
+	height: 16px
+}
+
+.star-rating--medium {
+	width: 108px;
+	height: 20px
+}
+
+.star-rating--large {
+	width: 216px;
+	height: 40px
+}
+
+.star-rating img {
+	max-width: 100%;
+	width: 100%
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-style: normal;
+	font-weight: 300;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-light.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-light.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-style: normal;
+	font-weight: 400;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-regular.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-regular.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-weight: 500;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-medium.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-medium.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-weight: 700;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-bold.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-bold.woff) format("woff")
+}
+
+@media only screen and (min-width:768px) {
+	.featured-review {
+		margin-bottom: 40px
+	}
+}
+
+@media only screen and (min-width:1280px) {
+	.featured-review {
+		margin-bottom: 56px
+	}
+}
+
+.featured-review-heading {
+	padding: 0 24px;
+	font-size: 20;
+	line-height: 32;
+	margin-top: 16px;
+	text-align: left;
+	font-size: 20px;
+	font-size: 1.25rem;
+	line-height: 32px;
+	line-height: 2rem
+}
+
+@media only screen and (min-width:768px) {
+	.featured-review-heading {
+		text-align: center;
+		font-size: 46px;
+		font-size: 2.875rem;
+		line-height: 60px;
+		line-height: 3.75rem
+	}
+}
+
+.featured-review-subheading {
+	color: #9192a7;
+	font-size: 14;
+	margin: 0;
+	padding: 0 24px;
+	text-align: left;
+	font-size: 14px;
+	font-size: .875rem;
+	line-height: 20px;
+	line-height: 1.25rem
+}
+
+@media only screen and (min-width:768px) {
+	.featured-review-subheading {
+		text-align: center;
+		font-size: 18px;
+		font-size: 1.125rem;
+		line-height: 24px;
+		line-height: 1.5rem
+	}
+}
+
+.featured-review__figure {
+	margin: 0
+}
+
+.featured-review__image {
+	display: block;
+	position: relative;
+	left: -295px;
+	height: 300px;
+	transition: opacity .3s
+}
+
+.featured-review__image--green {
+	background-color: #94bfa1
+}
+
+.featured-review__image--pink {
+	background-color: #f0b3c2
+}
+
+.featured-review__image--blue {
+	background-color: #a6c5d7
+}
+
+@media only screen and (min-width:400px) {
+	.featured-review__image {
+		left: -308px;
+		height: 340px;
+		width: 767px
+	}
+}
+
+@media only screen and (min-width:480px) {
+	.featured-review__image {
+		left: -225px
+	}
+}
+
+@media only screen and (min-width:560px) {
+	.featured-review__image {
+		left: -145px
+	}
+}
+
+@media only screen and (min-width:640px) {
+	.featured-review__image {
+		left: -17px
+	}
+}
+
+@media only screen and (min-width:768px) {
+	.featured-review__image {
+		left: -290px;
+		height: 514px;
+		width: 1160px
+	}
+}
+
+@media only screen and (min-width:880px) {
+	.featured-review__image {
+		left: -130px
+	}
+}
+
+@media only screen and (min-width:1024px) {
+	.featured-review__image {
+		left: -80px
+	}
+}
+
+@media only screen and (min-width:1120px) {
+	.featured-review__image {
+		left: 0
+	}
+}
+
+.featured-review__review-card-wrapper {
+	display: inline-block;
+	width: 100vw;
+	position: absolute;
+	height: 340px;
+	left: 0;
+	bottom: 0
+}
+
+@media only screen and (min-width:480px) {
+	.featured-review__review-card-wrapper {
+		height: 514px;
+		padding: 72px
+	}
+}
+
+@media only screen and (min-width:768px) {
+	.featured-review__review-card-wrapper {
+		top: 60px;
+		left: 60px;
+		width: 540px;
+		margin: 0
+	}
+}
+
+.featured-review__next-card,
+.featured-review__prev-card {
+	position: absolute;
+	height: 300px;
+	bottom: 18px;
+	width: 5%;
+	background-color: #fff;
+	z-index: 10
+}
+
+@media only screen and (min-width:480px) {
+	.featured-review__next-card,
+	.featured-review__prev-card {
+		height: 474px;
+		bottom: 36px
+	}
+}
+
+@media only screen and (min-width:768px) {
+	.featured-review__next-card,
+	.featured-review__prev-card {
+		display: none
+	}
+}
+
+.featured-review__prev-card {
+	left: 0
+}
+
+.featured-review__next-card {
+	right: 0
+}
+
+.featured-review__review-card {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	height: 340px;
+	width: 80%;
+	padding: 32px 20px;
+	background-color: #fff;
+	z-index: 10
+}
+
+@media only screen and (min-width:480px) {
+	.featured-review__review-card {
+		height: 514px;
+		bottom: 20px;
+		padding: 72px
+	}
+}
+
+@media only screen and (min-width:768px) {
+	.featured-review__review-card {
+		width: 540px;
+		margin: 0;
+		bottom: 0
+	}
+}
+
+.featured-review__review-card .review-card__text {
+	font-weight: 700;
+	margin-bottom: 2px;
+	position: relative;
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+	text-align: left;
+	margin-bottom: 24px;
+	font-size: 20px;
+	font-size: 1.25rem;
+	line-height: 28px;
+	line-height: 1.75rem
+}
+
+@media only screen and (min-width:480px) {
+	.featured-review__review-card .review-card__text {
+		font-size: 40px;
+		font-size: 2.5rem;
+		line-height: 52px;
+		line-height: 3.25rem
+	}
+}
+
+.featured-review__review-card .review-card__stars {
+	margin-bottom: 24px;
+	position: relative
+}
+
+.featured-review__review-card .review-card__author {
+	position: relative;
+	text-align: left;
+	font-weight: 700;
+	color: #adadad;
+	font-weight: 400;
+	font-size: 14px;
+	font-size: .875rem;
+	line-height: 20px;
+	line-height: 1.25rem
+}
+
+.featured-review__review-card .review-card__author .experienced {
+	font-weight: 700;
+	color: #1b1b21
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-style: normal;
+	font-weight: 300;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-light.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-light.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-style: normal;
+	font-weight: 400;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-regular.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-regular.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-weight: 500;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-medium.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-medium.woff) format("woff")
+}
+
+@font-face {
+	font-family: TrustpilotDefaultFont;
+	font-weight: 700;
+	src: url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-bold.woff2) format("woff2"), url(//cdn.trustpilot.net/brand-assets/2.1.0/fonts/trustpilot-default-font-bold.woff) format("woff")
+}
+
+.marketing {
+	background: #0c59f2;
+	padding: 54px 24px;
+	color: #fff
+}
+
+.marketing-title {
+	margin-top: 0;
+	margin-bottom: 16px;
+	color: #fff;
+	font-size: 40px;
+	font-size: 2.5rem;
+	line-height: 52px;
+	line-height: 3.25rem
+}
+
+.marketing-description {
+	max-width: 640px;
+	margin-bottom: 32px;
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 24px;
+	line-height: 1.5rem
+}
+
+.marketing-link {
+	border: 2px solid #fff;
+	margin-bottom: 0;
+	color: #fff;
+	border-radius: 2px;
+	padding: 16px 24px;
+	font-weight: 500;
+	display: inline-block;
+	font-size: 14px;
+	font-size: .875rem;
+	line-height: 20px;
+	line-height: 1.25rem
+}
+
+.marketing-link:hover {
+	color: #0c59f2;
+	background-color: #fff;
+	text-decoration: none
+}
+
+@media only screen and (min-width:768px) {
+	.marketing {
+		text-align: center;
+		padding: 104px 24px
+	}
+	.marketing-description {
+		margin-left: auto;
+		margin-right: auto
+	}
+}
+
+body {
+	background-color: #f2f2f5
+}
+
+a {
+	text-decoration: none
+}
+
+@media only screen and (min-width:1024px) {
+	.header__search {
+		display: none
+	}
+}
+
+.header__search--visible {
+	display: block
+}
+
+.stream {
+	grid-column: 1/13;
+	min-height: 200px
+}
+
+.featured-review {
+	grid-column: 1/13;
+	min-height: 200px;
+	text-align: center;
+	overflow: hidden
+}
+
+.marketing {
+	background-color: #0c59f2;
+	grid-column: 1/13;
+	min-height: 200px
+}
+
+.footer {
+	background-color: green;
+	grid-column: 1/13;
+	min-height: 200px
+}

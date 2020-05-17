@@ -1,125 +1,50 @@
 import React from 'react';
-const logo = require("../images/conference-logo.png");
 class Header extends React.Component{
     render(){
         return(
-            <div>
-            <header id="header-container">
-                <div id="header">
-                    <div className="container">
-                        <div className="left-side">
-                            <div id="logo">
-                                <a href="index.html"><img src={String(logo)} alt="" /></a>
-                            </div>
-                            <div className="mmenu-trigger">
-                                <button className="hamburger hamburger--collapse" type="button">
-                                    <span className="hamburger-box">
-                                        <span className="hamburger-inner"></span>
-                                    </span>
-                                </button>
-                            </div>
-                            <nav id="navigation" className="style-1">
-                                <ul id="responsive">
 
-                                    <li><a className="current" href="#">Home</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                            <div className="clearfix"></div>
-                        </div>
-                        <div className="right-side">
-                            <div className="header-widget">
-                                <a href="#sign-in-dialog" className="sign-in popup-with-zoom-anim"><i className="sl sl-icon-login"></i> Sign In</a>
-                            </div>
-                        </div>
-                        <div id="sign-in-dialog" className="zoom-anim-dialog mfp-hide">
-
-                            <div className="small-dialog-header">
-                                <h3>Sign In</h3>
-                            </div>
-                            <div className="sign-in-form style-1">
-
-                                <ul className="tabs-nav">
-                                    <li className=""><a href="#tab1">Log In</a></li>
-                                    <li><a href="#tab2">Register</a></li>
-                                </ul>
-
-                                <div className="tabs-container alt">
-                                    <div className="tab-content" id="tab1" style={{display: "none"}}>
-                                        <form method="post" className="login">
-
-                                            <p className="form-row form-row-wide">
-                                                <label>Username:
-                                                    <i className="im im-icon-Male"></i>
-                                                    <input type="text" className="input-text" name="username" id="username" value="" />
-                                                </label>
-                                            </p>
-
-                                            <p className="form-row form-row-wide">
-                                                <label>Password:
-                                                    <i className="im im-icon-Lock-2"></i>
-                                                    <input className="input-text" type="password" name="password" id="password"/>
-                                                </label>
-                                                <span className="lost_password">
-                                                    <a href="#" >Lost Your Password?</a>
-                                                </span>
-                                            </p>
-
-                                            <div className="form-row">
-                                                <input type="submit" className="button border margin-top-5" name="login" value="Login" />
-                                                <div className="checkboxes margin-top-10">
-                                                    <input id="remember-me" type="checkbox" name="check" />
-                                                    <label>Remember Me</label>
-                                                </div>
-                                            </div>
-                                            
-                                        </form>
-                                    </div>
-                                    <div className="tab-content" id="tab2" style={{display: "none"}}>
-
-                                        <form method="post" className="register">
-                                            
-                                        <p className="form-row form-row-wide">
-                                            <label>Username:
-                                                <i className="im im-icon-Male"></i>
-                                                <input type="text" className="input-text" name="username" id="username2" value="" />
-                                            </label>
-                                        </p>
-                                            
-                                        <p className="form-row form-row-wide">
-                                            <label>Email Address:
-                                                <i className="im im-icon-Mail"></i>
-                                                <input type="text" className="input-text" name="email" id="email2" value="" />
-                                            </label>
-                                        </p>
-
-                                        <p className="form-row form-row-wide">
-                                            <label>Password:
-                                                <i className="im im-icon-Lock-2"></i>
-                                                <input className="input-text" type="password" name="password1" id="password1"/>
-                                            </label>
-                                        </p>
-
-                                        <p className="form-row form-row-wide">
-                                            <label>Repeat Password:
-                                                <i className="im im-icon-Lock-2"></i>
-                                                <input className="input-text" type="password" name="password2" id="password2"/>
-                                            </label>
-                                        </p>
-
-                                        <input type="submit" className="button border fw margin-top-10" name="register" value="Register" />
-                
-                                        </form>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </header>
-            <div className="clearfix"></div>
+        <div className="header">
+            <div className="co nav">
+            <div className="logo-container">
+                <a href="index.html" aria-current="page" className="logo-link w-inline-block w--current">logo</a>
             </div>
+            <div className="nav-button-container">
+                <a href="dashboard/overview.html" className="sign-in-button w-button">Sign in</a>
+                <a href="login.html" className="get-started-button w-button">Get Started</a></div>
+            </div>
+            <div className="con title">
+            <h1 className="heading title">Search and rate conferences.</h1>
+            <h1 className="heading sub">It&#x27;s never been easier to rate and find conferences, see who&#x27;s attending, buy tickets, and more. ConferenceRanker is #1 in the conference community.</h1>
+            </div>
+            <div className="search-container">
+            <form action="" className="search w-clearfix w-form">
+                <input type="search" className="search-input w-input" name="query" placeholder="Search for conferences..." id="search" />
+                <input type="submit" value="Find!" className="search-button w-button"/>
+            </form>
+            <div data-w-id="587b6506-c262-f95b-af7b-0542f628f541" className="refine-search-button">
+                <div className="refine-text">Refine your search</div>
+                <img src="images/more-horizontal-1.svg" alt="" className="more-img"/>
+            </div>
+            <div style={{opacity: 0}} className="form-container wrapper">
+                <div className="form w-form">
+                <form id="email-form" name="email-form" data-name="Email Form" className="form">
+                    <div className="w-row">
+                    <div className="distance-col w-col w-col-4"><label className="distance-label">Distance</label><select id="Distance" name="Distance" data-name="Distance" className="select-field w-select"><option value="10 miles">&lt; 10 miles</option><option value="50 miles">&lt; 50 miles</option><option value="200 miles">&lt; 200 miles</option><option value="500 miles">&lt; 500 miles</option></select></div>
+                    <div className="audience-col w-col w-col-4"><label className="audience-label">Audience</label><select id="Audience" name="Audience" data-name="Audience" className="select-field w-select"><option value="General">General</option><option value="Executives">Executives</option><option value="C-Suite">C-Suite</option></select></div>
+                    <div className="category-col w-col w-col-4"><label className="category-label">Category</label><select id="Category" name="Category" data-name="Category" className="select-field w-select"><option value="Tech">Tech</option><option value="Business">Business</option><option value="Medicine">Medicine</option><option value="Engineering ">Engineering</option><option value="Crypto">Crypto</option><option value="Finances">Finances</option><option value="Misc">Misc</option><option value="Conventions">Conventions</option></select></div>
+                    </div>
+                </form>
+                <div className="w-form-done">
+                    <div>Thank you! Your submission has been received!</div>
+                </div>
+                <div className="w-form-fail">
+                    <div>Oops! Something went wrong while submitting the form.</div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
         )
     }
 }

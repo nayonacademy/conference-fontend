@@ -2,7 +2,7 @@ import React from 'react';
 class ProfileDetails extends React.Component{
     render(){
         return(
-            <div className="user-template-wrapper">
+            <div className="user-template-wrapper user">
             <div className="section public">
               <div className="container-template w-container">
                 <div className="con title user">

@@ -5,8 +5,7 @@ import CheckList from "./checklist";
 class CheckListIndex extends React.Component{
     render(){
         return(
-
-            <div>
+            <div className="body-wrapper">
             <Header />
             <CheckList />
             <Footer />

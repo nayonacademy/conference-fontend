@@ -10,3 +10,11 @@
     background-color: #f8f9ff;
     background-image: none;
 }
+.body-wrapper-cat{
+
+        height: auto;
+        min-height: auto;
+        padding-bottom: 50px;
+        background-color: #f8f9ff;
+    
+}

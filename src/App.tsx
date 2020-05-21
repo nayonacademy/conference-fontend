@@ -17,6 +17,7 @@ import Purchase from "./components/dashboard/purchaseIndex";
 import Settings from "./components/dashboard/settingsIndex";
 import Password from "./components/profile/passwordIndex";
 import Account from "./components/profile/accountIndex";
+import Category from "./components/profile/categoryIndex";
 class App extends Component { 
   render() { 
     return ( 
@@ -31,6 +32,7 @@ class App extends Component {
               <Route exact path='/profile' component={Profile}></Route>
               <Route exact path='/password' component={Password}></Route>
               <Route exact path='/account' component={Account}></Route>
+              <Route exact path='/category' component={Category}></Route>
               <Route exact path='/onboarding/checklist' component={CheckList}></Route>
               <Route exact path='/onboarding/eventlocation' component={EventLocation}></Route>
               <Route exact path='/onboarding/information/collection' component={InformationCollection}></Route>

@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom'; 
 import Home from "./components/home";
 import Login from "./components/login";
+import Dashboard from "./components/dashboard/index";
 class App extends Component { 
   render() { 
     return ( 
@@ -16,6 +17,7 @@ class App extends Component {
             <Switch> 
               <Route exact path='/' component={Home}></Route> 
               <Route exact path='/login' component={Login}></Route> 
+              <Route exact path='/dashboard' component={Dashboard}></Route>
             </Switch> 
           </div> 
        </Router> 

@@ -5,11 +5,11 @@ class HeaderSimple extends React.Component{
 
 <div className="co nav">
   <div className="logo-container">
-    <a href="../index.html" className="logo-link w-inline-block" />
+    <a href="/" className="logo-link w-inline-block" />
   </div>
   <form action="/search" className="nav-search w-form">
     <input
-      type="search"
+      type="text"
       className="search-input-nav w-input"
       maxLength={256}
       name="query"
@@ -24,10 +24,10 @@ class HeaderSimple extends React.Component{
     />
   </form>
   <div className="nav-button-container">
-    <a href="../dashboard/overview.html" className="sign-in-button w-button">
+    <a href="/login" className="sign-in-button w-button">
       Sign in
     </a>
-    <a href="../login.html" className="get-started-button w-button">
+    <a href="/login" className="get-started-button w-button">
       Get Started
     </a>
   </div>

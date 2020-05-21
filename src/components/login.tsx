@@ -1,7 +1,11 @@
 import React from 'react';
+import HeaderSimple from './headerSimple';
+import Footer from "./footer";
 class Login extends React.Component{
     render(){
         return(
+          <>
+            <HeaderSimple />
             <div className="body-wrapper log-in">
             <div className="access-container w-container">
               <div className="card sign-up">
@@ -55,6 +59,8 @@ class Login extends React.Component{
               </div>
             </div>
           </div>
+          <Footer />
+          </>
         )
     }
 }

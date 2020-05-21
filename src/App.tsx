@@ -1,16 +1,26 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
-import Header from "./components/header";
-import Footer from "./components/footer";
-import Conferences from "./components/conferenses";
-function App() {
-  return (
-    <div>
-    <Header />
-    <Conferences />
-    <Footer />
-    </div>
-  );
-}
-
-export default App;
+import { 
+  BrowserRouter as Router, 
+  Route, 
+  Link, 
+  Switch 
+} from 'react-router-dom'; 
+import Home from "./components/home";
+import Login from "./components/login";
+class App extends Component { 
+  render() { 
+    return ( 
+       <Router> 
+           <div className="App"> 
+            <Switch> 
+              <Route exact path='/' component={Home}></Route> 
+              <Route exact path='/login' component={Login}></Route> 
+            </Switch> 
+          </div> 
+       </Router> 
+   ); 
+  } 
+} 
+  
+export default App; 

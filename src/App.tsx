@@ -15,6 +15,8 @@ import EventLocation from "./components/onboarding/eventLocatoinIndex";
 import InformationCollection from "./components/onboarding/informationCollectionIndex";
 import Purchase from "./components/dashboard/purchaseIndex";
 import Settings from "./components/dashboard/settingsIndex";
+import Password from "./components/profile/passwordIndex";
+import Account from "./components/profile/accountIndex";
 class App extends Component { 
   render() { 
     return ( 
@@ -27,7 +29,8 @@ class App extends Component {
               <Route exact path='/purchase' component={Purchase}></Route>
               <Route exact path='/settings' component={Settings}></Route>
               <Route exact path='/profile' component={Profile}></Route>
-
+              <Route exact path='/password' component={Password}></Route>
+              <Route exact path='/account' component={Account}></Route>
               <Route exact path='/onboarding/checklist' component={CheckList}></Route>
               <Route exact path='/onboarding/eventlocation' component={EventLocation}></Route>
               <Route exact path='/onboarding/information/collection' component={InformationCollection}></Route>

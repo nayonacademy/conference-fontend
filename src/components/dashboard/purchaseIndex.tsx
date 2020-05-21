@@ -1,20 +1,18 @@
 import React from 'react';
 import TopNav from "./header";
 import Sidebar from "./sidebar";
-import Container from "./container";
-class Home extends React.Component{
+import Purchase from "./purchase";
+class PurchaseIndex extends React.Component{
     render(){
         return(
             <div className="bodycontainer">
-            
             <Sidebar />
             <div className="body-content-container">
-            <TopNav />
-            <Container />
+            <TopNav/>
+            <Purchase/>
             </div>
             </div>
-
         )
     }
 }
-export default Home;
+export default PurchaseIndex;

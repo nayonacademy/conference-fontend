@@ -2,12 +2,6 @@ import React from 'react';
 class DashboardContainer extends React.Component{
     render(){
         return(
-            <div className="body-content-container">
-            <div className="co nav">
-              <div className="logo-container"><a href="../index.html" className="logo-link w-inline-block"></a></div>
-              <form action="/search" className="nav-search w-form"><input type="search" className="search-input-nav w-input" max={256} name="query" placeholder="Search…" id="search"/><input type="submit" value="Search" className="search-button-2 w-button"/></form>
-              <div className="nav-button-container"><a href="../dashboard/overview.html" aria-current="page" className="sign-in-button w-button w--current">Sign in</a><a href="../login.html" className="get-started-button w-button">Get Started</a></div>
-            </div>
             <div className="user-template-wrapper">
               <div className="section public">
                 <div className="container-template w-container">
@@ -398,7 +392,6 @@ class DashboardContainer extends React.Component{
                 </div>
               </div>
             </div>
-          </div>
         )
     }
 }

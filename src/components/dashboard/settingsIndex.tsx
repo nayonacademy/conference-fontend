@@ -1,20 +1,20 @@
 import React from 'react';
 import TopNav from "./header";
 import Sidebar from "./sidebar";
-import Container from "./container";
-class Home extends React.Component{
+import Settings from "./settings";
+class SettingsIndex extends React.Component{
     render(){
         return(
+
             <div className="bodycontainer">
-            
             <Sidebar />
             <div className="body-content-container">
-            <TopNav />
-            <Container />
+            <TopNav/>
+            <Settings/>
             </div>
             </div>
 
         )
     }
 }
-export default Home;
+export default SettingsIndex;

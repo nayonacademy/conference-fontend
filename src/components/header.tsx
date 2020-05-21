@@ -6,7 +6,7 @@ class Header extends React.Component{
         <div className="header">
             <div className="co nav">
             <div className="logo-container">
-                <a href="index.html" aria-current="page" className="logo-link w-inline-block w--current">logo</a>
+                <a href="/" aria-current="page" className="logo-link w-inline-block w--current">logo</a>
             </div>
             <div className="nav-button-container">
                 <a href="/login" className="sign-in-button w-button">Sign in</a>

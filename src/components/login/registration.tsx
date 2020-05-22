@@ -2,6 +2,7 @@ import React from 'react';
 import HeaderSimple from '../headerSimple';
 import Footer from "../footer";
 import axios from "axios"; 
+import { NavLink } from 'react-router-dom'
 const API_URL = process.env.REACT_APP_API_URL;
 class Registration extends React.Component<any, any> {
 
@@ -22,11 +23,11 @@ class Registration extends React.Component<any, any> {
       password: "pass1234"
     };
 
-    axios.post(`http://0.0.0.0:8080/user`, { user })
-      .then(res => {
-        console.log(res);
-        console.log(res.data);
-      })
+    // axios.post(`http://localhost:8080/user`, { user })
+    //   .then(res => {
+    //     console.log(res);
+    //     console.log(res.data);
+    //   })
   }
 
   // constructor(props:any) {
@@ -65,15 +66,20 @@ class Registration extends React.Component<any, any> {
                     <input type="email" className="user-email w-input" max={256} name="email" placeholder="Email address" />
                 </div>
                 <div className="">
-                    <label className="user-name-label">Name (public)</label>
-                    <input type="text" className="user-public-name w-input" max={256} name="name" placeholder="Name"/>
+                    {/* <label className="user-name-label">Name (public)</label> */}
+                    {/* <input type="text" className="user-public-name w-input" max={256} name="name" placeholder="Name"/> */}
                     <label className="user-name-label">Password </label>
                     <input type="text" className="user-public-name w-input" max={256} name="password" placeholder="Password"/>
                     <label className="">
                     <input type="checkbox"name="agree" className="w-checkbox-input"/>
-                    <span className="w-form-label">I agree to the <a href="#">terms</a> and <a href="#">conditions.</a></span></label>
+                    {/* <span className="w-form-label">I agree to the <a href="#">terms</a> and <a href="#">conditions.</a></span> */}
+                    </label>
                 </div>
-                <div><input type="submit" value="Sign Up" className="w-button"/></div>
+                <div>
+                  {/* <input type="submit" value="Sign In" className="w-button"/> */}
+                  <NavLink className="w-button" to="/dashboard"> Sign In </NavLink>
+                </div>
+                
               </form>
 
 

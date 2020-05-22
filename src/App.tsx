@@ -6,8 +6,9 @@ import {
   Link, 
   Switch 
 } from 'react-router-dom'; 
+
 import Home from "./components/home";
-import Login from "./components/login";
+import Login from "./components/login/loginIndex";
 import Dashboard from "./components/dashboard/index";
 import Profile from "./components/profile/index";
 import CheckList from "./components/onboarding/checkListIndex";
@@ -18,6 +19,7 @@ import Settings from "./components/dashboard/settingsIndex";
 import Password from "./components/profile/passwordIndex";
 import Account from "./components/profile/accountIndex";
 import Category from "./components/profile/categoryIndex";
+import Registration from "./components/login/registrationIndex";
 class App extends Component { 
   render() { 
     return ( 
@@ -25,7 +27,8 @@ class App extends Component {
            <div className="App"> 
             <Switch> 
               <Route exact path='/' component={Home}></Route> 
-              <Route exact path='/login' component={Login}></Route> 
+              <Route exact path='/login' component={Login}></Route>
+              <Route exact path='/registration' component={Registration}></Route>  
               <Route exact path='/dashboard' component={Dashboard}></Route>
               <Route exact path='/purchase' component={Purchase}></Route>
               <Route exact path='/settings' component={Settings}></Route>

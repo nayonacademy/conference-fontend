@@ -1,11 +1,10 @@
 import React from 'react';
-import HeaderSimple from './headerSimple';
-import Footer from "./footer";
+import HeaderSimple from '../headerSimple';
+import Footer from "../footer";
 class Login extends React.Component{
     render(){
         return(
           <>
-            <HeaderSimple />
             <div className="body-wrapper log-in">
             <div className="access-container w-container">
               <div className="card sign-up">
@@ -13,7 +12,7 @@ class Login extends React.Component{
                 <div className="access-button-container">
                     <a href="#" className="facebook-signin-button w-button">Continue with Facebook</a><a href="#" className="linkedin-signin-button w-button">Continue with LinkedIn</a></div>
                 <div className="proceed-with-email-container">
-                  <div data-w-id="d8e8b6c1-1bc7-fd1a-37a3-9216eab18dd3" className="continue-with-email-instead">Continue with email instead</div>
+                  <a href="/registration" data-w-id="d8e8b6c1-1bc7-fd1a-37a3-9216eab18dd3" className="continue-with-email-instead">Continue with email instead</a>
                 </div>
                 <div className="data-collection">
                   <div className="data-form w-form">
@@ -59,7 +58,6 @@ class Login extends React.Component{
               </div>
             </div>
           </div>
-          <Footer />
           </>
         )
     }

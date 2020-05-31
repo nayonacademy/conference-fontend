@@ -38,7 +38,6 @@ jobs:
           host: ${{ secrets.SERVER_IP }}
           username: ${{ secrets.SERVER_USERNAME }}
           password: ${{ secrets.SERVER_PASSWORD }}
-          script: 
-            cd ${{ secrets.PROJECT_PATH }}
-            cat ./deploy.sh | ssh ubuntu@54.169.68.28
+          script: cd ${{ secrets.PROJECT_PATH }} && ./deploy.sh
             echo "Deploy step finished"
+
